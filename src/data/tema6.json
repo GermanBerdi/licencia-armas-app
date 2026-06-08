@@ -1,0 +1,367 @@
+{
+  "id": 6,
+  "nombre": "Reparacion y Deposito",
+  "descripcion": "Reparacion de armas, pruebas de armas y regimen de deposito.",
+  "preguntas": [
+    {
+      "id": 6001,
+      "texto": "La reparacion de armas de fuego debe realizarse por:",
+      "opciones": [
+        { "id": "a", "texto": "Industrias fabricantes o armeros autorizados por la Intervencion de Armas.", "correcta": true },
+        { "id": "b", "texto": "Cualquier taller mecanico.", "correcta": false },
+        { "id": "c", "texto": "Solo el propietario del arma.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6002,
+      "texto": "Para dedicarse profesionalmente a reparar armas es imprescindible:",
+      "opciones": [
+        { "id": "a", "texto": "Tener condicion de armero autorizado, establecimiento abierto e inscrito.", "correcta": true },
+        { "id": "b", "texto": "Tener licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "Ser mayor de edad y tener experiencia.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6003,
+      "texto": "Se admite un arma a reparar sin guia de pertenencia?",
+      "opciones": [
+        { "id": "a", "texto": "No, salvo sustitucion reglamentaria por guia de circulacion cuando proceda.", "correcta": true },
+        { "id": "b", "texto": "Si, siempre.", "correcta": false },
+        { "id": "c", "texto": "Si, con autorizacion verbal.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6004,
+      "texto": "Mientras dura la reparacion, la guia de pertenencia queda en poder de:",
+      "opciones": [
+        { "id": "a", "texto": "El armero.", "correcta": true },
+        { "id": "b", "texto": "El titular del arma.", "correcta": false },
+        { "id": "c", "texto": "El ayuntamiento.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6005,
+      "texto": "Si el arma se envia a reparar desde localidad distinta y no la lleva personalmente su titular, la guia de pertenencia se sustituye por:",
+      "opciones": [
+        { "id": "a", "texto": "Guia de circulacion expedida por la Intervencion de Armas de origen.", "correcta": true },
+        { "id": "b", "texto": "Albaran de transporte.", "correcta": false },
+        { "id": "c", "texto": "Permiso del alcalde.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6006,
+      "texto": "Puede el titular llevar personalmente su arma a un establecimiento autorizado para reparacion?",
+      "opciones": [
+        { "id": "a", "texto": "Si, acompanada de su guia de pertenencia y documentacion aplicable.", "correcta": true },
+        { "id": "b", "texto": "No, nunca.", "correcta": false },
+        { "id": "c", "texto": "Solo si es escopeta.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6007,
+      "texto": "Esta permitida una reparacion que modifique calibre o estructura sin conocimiento de la Intervencion de Armas?",
+      "opciones": [
+        { "id": "a", "texto": "No.", "correcta": true },
+        { "id": "b", "texto": "Si, si lo hace un armero.", "correcta": false },
+        { "id": "c", "texto": "Si, en armas de caza menor.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6008,
+      "texto": "La modificacion sustancial de caracteristicas de un arma en reparacion requiere:",
+      "opciones": [
+        { "id": "a", "texto": "Conocimiento de la Intervencion y aprobacion del organismo competente cuando proceda.", "correcta": true },
+        { "id": "b", "texto": "Solo consentimiento del titular.", "correcta": false },
+        { "id": "c", "texto": "No requiere autorizacion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6009,
+      "texto": "Quienes pueden dejar armas a prueba a posibles compradores habilitados?",
+      "opciones": [
+        { "id": "a", "texto": "Fabricantes y comerciantes autorizados y sus representantes en los terminos reglamentarios.", "correcta": true },
+        { "id": "b", "texto": "Cualquier particular con licencia.", "correcta": false },
+        { "id": "c", "texto": "Solo clubes de tiro.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6010,
+      "texto": "Para probar un arma antes de comprarla, la persona interesada debe tener:",
+      "opciones": [
+        { "id": "a", "texto": "La correspondiente licencia habilitante.", "correcta": true },
+        { "id": "b", "texto": "Solo DNI.", "correcta": false },
+        { "id": "c", "texto": "Solo licencia de caza.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6011,
+      "texto": "El documento para prueba de arma expedido por fabricante/comerciante es:",
+      "opciones": [
+        { "id": "a", "texto": "Personal e intransferible.", "correcta": true },
+        { "id": "b", "texto": "Generico y transferible.", "correcta": false },
+        { "id": "c", "texto": "Opcional.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6012,
+      "texto": "El documento de prueba del arma debe estar visado por:",
+      "opciones": [
+        { "id": "a", "texto": "La Intervencion de Armas correspondiente.", "correcta": true },
+        { "id": "b", "texto": "El ayuntamiento.", "correcta": false },
+        { "id": "c", "texto": "No requiere visado.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6013,
+      "texto": "Plazo habitual de validez del documento de prueba en la misma localidad:",
+      "opciones": [
+        { "id": "a", "texto": "Cinco dias.", "correcta": true },
+        { "id": "b", "texto": "Diez dias.", "correcta": false },
+        { "id": "c", "texto": "Un dia.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6014,
+      "texto": "Plazo habitual de validez del documento de prueba en distinta localidad:",
+      "opciones": [
+        { "id": "a", "texto": "Diez dias.", "correcta": true },
+        { "id": "b", "texto": "Cinco dias.", "correcta": false },
+        { "id": "c", "texto": "Veinte dias.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6015,
+      "texto": "Donde pueden realizarse las pruebas de armas autorizadas?",
+      "opciones": [
+        { "id": "a", "texto": "En campos/federaciones/poligonos/galerias autorizadas y terrenos cinegeticos controlados.", "correcta": true },
+        { "id": "b", "texto": "En via publica sin trafico.", "correcta": false },
+        { "id": "c", "texto": "En cualquier finca privada.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6016,
+      "texto": "Se puede probar un arma de fuego en via publica?",
+      "opciones": [
+        { "id": "a", "texto": "No.", "correcta": true },
+        { "id": "b", "texto": "Si, de noche.", "correcta": false },
+        { "id": "c", "texto": "Si, con licencia E.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6017,
+      "texto": "En caso de fallecimiento del titular de armas, herederos o albaceas deben depositarlas:",
+      "opciones": [
+        { "id": "a", "texto": "Tan pronto conozcan la obligacion y, en todo caso, dentro de seis meses.", "correcta": true },
+        { "id": "b", "texto": "Al ano exacto.", "correcta": false },
+        { "id": "c", "texto": "No existe plazo.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6018,
+      "texto": "Durante cuanto tiempo quedan a disposicion de herederos las armas depositadas por fallecimiento?",
+      "opciones": [
+        { "id": "a", "texto": "Un ano.", "correcta": true },
+        { "id": "b", "texto": "Seis meses.", "correcta": false },
+        { "id": "c", "texto": "Dos anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6019,
+      "texto": "Al depositar armas por fallecimiento, que documentacion acompana normalmente a las armas?",
+      "opciones": [
+        { "id": "a", "texto": "Las guias de pertenencia para su anulacion.", "correcta": true },
+        { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "No se entrega documentacion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6020,
+      "texto": "Si cesa la habilitacion para tenencia legal de armas, el interesado debe depositarlas:",
+      "opciones": [
+        { "id": "a", "texto": "Inmediatamente.", "correcta": true },
+        { "id": "b", "texto": "En 30 dias.", "correcta": false },
+        { "id": "c", "texto": "En el siguiente pase de revista.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6021,
+      "texto": "No pasar dos revistas consecutivas de un arma obliga a:",
+      "opciones": [
+        { "id": "a", "texto": "Retirada de la guia y deposito inmediato del arma.", "correcta": true },
+        { "id": "b", "texto": "Solo multa economica.", "correcta": false },
+        { "id": "c", "texto": "Nada si el arma no se usa.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6022,
+      "texto": "En caso de anulación, caducidad o extravio de licencia, las armas deben depositarse:",
+      "opciones": [
+        { "id": "a", "texto": "Inmediatamente junto con sus guias de pertenencia.", "correcta": true },
+        { "id": "b", "texto": "Tras tres meses.", "correcta": false },
+        { "id": "c", "texto": "Solo si lo ordena el alcalde.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6023,
+      "texto": "Si se extravia la guia de pertenencia de un arma, debe:",
+      "opciones": [
+        { "id": "a", "texto": "Depositase inmediatamente el arma correspondiente a esa guia.", "correcta": true },
+        { "id": "b", "texto": "Esperar duplicado sin depositar.", "correcta": false },
+        { "id": "c", "texto": "Solo notificar por telefono.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6024,
+      "texto": "Puede un titular depositar voluntariamente sus armas para subasta o chatarra?",
+      "opciones": [
+        { "id": "a", "texto": "Si.", "correcta": true },
+        { "id": "b", "texto": "No, nunca.", "correcta": false },
+        { "id": "c", "texto": "Solo con sentencia judicial.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6025,
+      "texto": "Las armas depositadas por infraccion pueden ser recuperadas posteriormente?",
+      "opciones": [
+        { "id": "a", "texto": "Si, en los terminos que procedan.", "correcta": true },
+        { "id": "b", "texto": "No, se destruyen siempre.", "correcta": false },
+        { "id": "c", "texto": "Solo si son de concurso.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6026,
+      "texto": "Si titulares no desean recuperar armas depositadas por infraccion, pueden destinarse a:",
+      "opciones": [
+        { "id": "a", "texto": "Subasta.", "correcta": true },
+        { "id": "b", "texto": "Uso administrativo directo.", "correcta": false },
+        { "id": "c", "texto": "Transferencia privada automatica.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6027,
+      "texto": "En importaciones, armas no retiradas tras despacho aduanero permanecen depositadas maximo:",
+      "opciones": [
+        { "id": "a", "texto": "Un ano.", "correcta": true },
+        { "id": "b", "texto": "Seis meses.", "correcta": false },
+        { "id": "c", "texto": "Tres meses.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6028,
+      "texto": "El arma reparada debe devolverse al interesado:",
+      "opciones": [
+        { "id": "a", "texto": "Con su guia/documentacion correspondiente una vez finalizada reparacion.", "correcta": true },
+        { "id": "b", "texto": "Sin guia, solo factura.", "correcta": false },
+        { "id": "c", "texto": "Solo al representante legal.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6029,
+      "texto": "Las industrias que fabrican armas de fuego estan autorizadas a repararlas?",
+      "opciones": [
+        { "id": "a", "texto": "Si.", "correcta": true },
+        { "id": "b", "texto": "No.", "correcta": false },
+        { "id": "c", "texto": "Solo escopetas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6030,
+      "texto": "Un requisito del documento de prueba de arma es incluir:",
+      "opciones": [
+        { "id": "a", "texto": "Resena del arma, licencia del probador, lugar de prueba y plazo de validez.", "correcta": true },
+        { "id": "b", "texto": "Solo nombre del comerciante.", "correcta": false },
+        { "id": "c", "texto": "Solo firma del probador.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6031,
+      "texto": "No dejar el arma lista para nueva carga tras descarga en prueba practica es:",
+      "opciones": [
+        { "id": "a", "texto": "Aspecto negativo de evaluacion practica.", "correcta": true },
+        { "id": "b", "texto": "Aspecto positivo.", "correcta": false },
+        { "id": "c", "texto": "Irrelevante.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6032,
+      "texto": "Con escopeta en prueba practica, al finalizar disparos debe quedar:",
+      "opciones": [
+        { "id": "a", "texto": "Sin cartuchos pendientes, descargada y en condiciones seguras.", "correcta": true },
+        { "id": "b", "texto": "Con un cartucho de reserva.", "correcta": false },
+        { "id": "c", "texto": "Montada y alimentada.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6033,
+      "texto": "Con rifle en prueba practica, obtener al menos un impacto en diana forma parte de:",
+      "opciones": [
+        { "id": "a", "texto": "Valoracion positiva reglada de la accion de disparar.", "correcta": true },
+        { "id": "b", "texto": "Criterio opcional del instructor.", "correcta": false },
+        { "id": "c", "texto": "No se evalua.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6034,
+      "texto": "En las pruebas de manejo, poner dedo en disparador antes de orden de disparo es:",
+      "opciones": [
+        { "id": "a", "texto": "Aspecto negativo grave de seguridad.", "correcta": true },
+        { "id": "b", "texto": "Correcto si esta apuntando.", "correcta": false },
+        { "id": "c", "texto": "Obligatorio para estabilizar.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6035,
+      "texto": "Dirigir boca de fuego a lugar distinto de blancos durante maniobras en prueba es:",
+      "opciones": [
+        { "id": "a", "texto": "Aspecto negativo y motivo de suspenso potencial.", "correcta": true },
+        { "id": "b", "texto": "Permitido si no hay gente.", "correcta": false },
+        { "id": "c", "texto": "Solo negativo en tiro deportivo.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6036,
+      "texto": "Los armeros que reparan armas deben llevar:",
+      "opciones": [
+        { "id": "a", "texto": "Libro de entradas/salidas con comunicacion periodica a Intervencion.", "correcta": true },
+        { "id": "b", "texto": "Solo facturacion interna.", "correcta": false },
+        { "id": "c", "texto": "No hay obligacion registral.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6037,
+      "texto": "Las armas depositadas por fallecimiento, si no se adjudican o enajenan en plazo, podran:",
+      "opciones": [
+        { "id": "a", "texto": "Enajenarse en subasta publica e ingresar importe para herederos.", "correcta": true },
+        { "id": "b", "texto": "Pasar automaticamente al Estado sin tramite.", "correcta": false },
+        { "id": "c", "texto": "Destruirse siempre.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6038,
+      "texto": "En deposito por fallecimiento, herederos pueden durante el plazo reglamentario:",
+      "opciones": [
+        { "id": "a", "texto": "Adquirir legalmente, enajenar o inutilizar para recuerdo segun norma.", "correcta": true },
+        { "id": "b", "texto": "Usar libremente sin documentar.", "correcta": false },
+        { "id": "c", "texto": "Solo subastarlas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6039,
+      "texto": "En pruebas de armas, el lugar de prueba indicado en documento:",
+      "opciones": [
+        { "id": "a", "texto": "Es obligatorio y no puede omitirse.", "correcta": true },
+        { "id": "b", "texto": "Es opcional.", "correcta": false },
+        { "id": "c", "texto": "Puede decidirlo el probador sin aviso.", "correcta": false }
+      ]
+    },
+    {
+      "id": 6040,
+      "texto": "Una persona con licencia correspondiente puede probar arma de caza antes de comprarla si:",
+      "opciones": [
+        { "id": "a", "texto": "Existe documento personal intransferible visado y se realiza en lugar autorizado.", "correcta": true },
+        { "id": "b", "texto": "Solo por invitacion verbal del vendedor.", "correcta": false },
+        { "id": "c", "texto": "En cualquier terreno sin limitaciones.", "correcta": false }
+      ]
+    }
+  ]
+}

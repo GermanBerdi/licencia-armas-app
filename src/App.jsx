@@ -1,0 +1,383 @@
+import { useState } from 'react'
+import tema1 from './data/tema1.json'
+import tema2 from './data/tema2.json'
+import tema3 from './data/tema3.json'
+import tema4 from './data/tema4.json'
+import tema5 from './data/tema5.json'
+import tema6 from './data/tema6.json'
+import temarioEstudio from './data/temarioEstudio.json'
+import temarioCompleto from './data/temarioCompleto.json'
+import './App.css'
+
+const TEMAS = [tema1, tema2, tema3, tema4, tema5, tema6]
+
+const TODOS_LOS_TEMAS = [
+  { id: 1, nombre: 'Funcionamiento de las Armas', cargado: true },
+  { id: 2, nombre: 'Categoría de Armas', cargado: true },
+  { id: 3, nombre: 'Circulación y Transferencia', cargado: true },
+  { id: 4, nombre: 'Documentación y Licencias', cargado: true },
+  { id: 5, nombre: 'Régimen Sancionador', cargado: true },
+  { id: 6, nombre: 'Reparación y Depósito', cargado: true },
+]
+
+const DISTRIBUCION_EXAMEN = { 1: 4, 2: 3, 3: 3, 4: 4, 5: 3, 6: 3 }
+
+function shuffle(arr) {
+  return [...arr].sort(() => Math.random() - 0.5)
+}
+
+function construirSimulacro(temasDisponibles) {
+  const porTema = new Map(temasDisponibles.map(t => [t.id, t.preguntas]))
+  const seleccion = []
+
+  Object.entries(DISTRIBUCION_EXAMEN).forEach(([temaId, cantidad]) => {
+    const preguntasTema = porTema.get(Number(temaId)) || []
+    const muestreo = shuffle(preguntasTema).slice(0, cantidad).map(p => ({ ...p, temaId: Number(temaId) }))
+    seleccion.push(...muestreo)
+  })
+
+  if (seleccion.length < 20) {
+    const idsActuales = new Set(seleccion.map(p => p.id))
+    const bolsa = temasDisponibles
+      .flatMap(t => t.preguntas.map(p => ({ ...p, temaId: t.id })))
+      .filter(p => !idsActuales.has(p.id))
+    const faltan = 20 - seleccion.length
+    seleccion.push(...shuffle(bolsa).slice(0, faltan))
+  }
+
+  return shuffle(seleccion).slice(0, 20)
+}
+
+function generarExplicacion(pregunta, temaId) {
+  const correcta = pregunta.opciones.find(o => o.correcta)
+  const incorrectas = pregunta.opciones.filter(o => !o.correcta)
+  const seccionTema = temarioEstudio.secciones.find(s => s.id === `tema${temaId}`)
+  const apoyo = seccionTema?.puntos?.[0] || 'La clave es aplicar la definicion tecnica del temario oficial.'
+
+  return `La respuesta correcta es ${correcta.id.toUpperCase()} porque coincide con la definicion reglamentaria del concepto preguntado. ${apoyo} En cambio, ${incorrectas[0].id.toUpperCase()} y ${incorrectas[1].id.toUpperCase()} no son validas porque describen un mecanismo distinto o incompleto respecto a lo que pide la pregunta.`
+}
+
+function Quiz({ preguntas, onFinish, temaId, passThreshold = 12 }) {
+  const [respuestas, setRespuestas] = useState({})
+  const [corregido, setCorregido] = useState(false)
+  const [advertencia, setAdvertencia] = useState(false)
+
+  function seleccionar(preguntaId, opcionId) {
+    if (corregido) return
+    setRespuestas(r => ({ ...r, [preguntaId]: opcionId }))
+  }
+
+  function intentarCorregir() {
+    const sinResponder = preguntas.length - Object.keys(respuestas).length
+    if (sinResponder > 0) {
+      setAdvertencia(true)
+    } else {
+      confirmarCorrecion()
+    }
+  }
+
+  function confirmarCorrecion() {
+    setAdvertencia(false)
+    setCorregido(true)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  function limpiarFormulario() {
+    if (corregido) return
+    setRespuestas({})
+  }
+
+  function calcularAciertos() {
+    return preguntas.filter(p => {
+      const correcta = p.opciones.find(o => o.correcta)
+      return respuestas[p.id] === correcta.id
+    }).length
+  }
+
+  const respondidas = Object.keys(respuestas).length
+  const sinResponder = preguntas.length - respondidas
+  const aciertos = corregido ? calcularAciertos() : 0
+
+  return (
+    <div className="quiz">
+      {advertencia && (
+        <div className="modal-overlay">
+          <div className="modal">
+            <p className="modal-titulo">⚠️ Quedan preguntas sin responder</p>
+            <p className="modal-texto">Todavía tienes <strong>{sinResponder} {sinResponder === 1 ? 'pregunta' : 'preguntas'}</strong> sin responder. ¿Quieres corregir igualmente?</p>
+            <div className="modal-botones">
+              <button className="btn-modal-cancelar" onClick={() => setAdvertencia(false)}>Volver y seguir</button>
+              <button className="btn-modal-confirmar" onClick={confirmarCorrecion}>Corregir así</button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {preguntas.map((pregunta, i) => {
+        const seleccionada = respuestas[pregunta.id]
+        const correcta = pregunta.opciones.find(o => o.correcta)
+        const acerto = corregido && seleccionada === correcta.id
+        const fallo = corregido && seleccionada && seleccionada !== correcta.id
+        const sinResponder = corregido && !seleccionada
+        const mostrarExplicacion = corregido && (fallo || sinResponder)
+        const textoExplicacion = pregunta.explicacion || generarExplicacion(pregunta, pregunta.temaId || temaId)
+
+        return (
+          <div key={pregunta.id} className={`pregunta-bloque ${mostrarExplicacion ? 'con-explicacion' : ''} ${acerto ? 'bloque-ok' : ''} ${fallo ? 'bloque-fail' : ''} ${sinResponder ? 'bloque-vacia' : ''}`}>
+            <div className="pregunta-contenido">
+              <p className="pregunta-num">Pregunta {i + 1}</p>
+              <p className="pregunta-texto">{pregunta.texto}</p>
+              <ul className="opciones">
+                {pregunta.opciones.map(opcion => {
+                  let clase = 'opcion'
+                  if (corregido && opcion.correcta) clase += ' correcta'
+                  if (corregido && seleccionada === opcion.id && !opcion.correcta) clase += ' incorrecta'
+                  return (
+                    <li key={opcion.id}>
+                      <label className={clase}>
+                        <input
+                          type="radio"
+                          name={`pregunta-${pregunta.id}`}
+                          value={opcion.id}
+                          checked={seleccionada === opcion.id}
+                          onChange={() => seleccionar(pregunta.id, opcion.id)}
+                          disabled={corregido}
+                        />
+                        <span className="opcion-letra">{opcion.id.toUpperCase()}</span>
+                        {opcion.texto}
+                      </label>
+                    </li>
+                  )
+                })}
+              </ul>
+              {sinResponder && <p className="feedback-vacia">— Sin responder</p>}
+            </div>
+            {mostrarExplicacion && (
+              <aside className="explicacion-respuesta">
+                <p className="explicacion-titulo">Por que la correcta es {correcta.id.toUpperCase()}</p>
+                <p className="explicacion-texto">{textoExplicacion}</p>
+              </aside>
+            )}
+          </div>
+        )
+      })}
+
+      {corregido && (
+        <div className="resumen-correccion">
+          <span className={aciertos >= passThreshold ? 'badge-apto' : 'badge-no-apto'}>
+            {aciertos >= passThreshold ? 'APTO' : 'NO APTO'}
+          </span>
+          <span className="resumen-score">{aciertos} / {preguntas.length} correctas</span>
+          <button className="btn-reintentar" onClick={() => onFinish()}>Volver al menú</button>
+        </div>
+      )}
+
+      {!corregido && (
+        <div className="barra-corregir">
+          <span className="respondidas-count">{respondidas} / {preguntas.length} respondidas</span>
+          <div className="acciones-quiz">
+            <button className="btn-secundario" onClick={limpiarFormulario}>Limpiar respuestas</button>
+            <button className="btn-secundario" onClick={onFinish}>Volver al menú</button>
+            <button className="btn-corregir" onClick={intentarCorregir}>Corregir</button>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
+
+
+function ModoEstudio({ contenido, titulo = 'Modo Estudio', desplegable = false }) {
+  const [seccionAbiertaId, setSeccionAbiertaId] = useState(contenido.secciones?.[0]?.id ?? null)
+
+  function alternarSeccion(id) {
+    setSeccionAbiertaId(actual => (actual === id ? null : id))
+  }
+
+  return (
+    <div className="modo-estudio">
+      <div className="estudio-cabecera">
+        <div className="info-examen-icono">📚</div>
+        <div>
+          <h1>{titulo}</h1>
+          <p>{contenido.aviso}</p>
+          <p className="estudio-fuente">
+            Fuente base: <a href={contenido.fuente} target="_blank" rel="noreferrer">CP Guadalentin</a>
+          </p>
+        </div>
+      </div>
+
+      {desplegable ? (
+        <div className="estudio-acordeon-lista">
+          {contenido.secciones.map(seccion => (
+            <article key={seccion.id} className={`estudio-acordeon ${seccionAbiertaId === seccion.id ? 'abierto' : ''}`}>
+              <button
+                type="button"
+                className="estudio-acordeon-trigger"
+                onClick={() => alternarSeccion(seccion.id)}
+                aria-expanded={seccionAbiertaId === seccion.id}
+              >
+                {seccion.titulo}
+              </button>
+              {seccionAbiertaId === seccion.id && (
+                <ul>
+                  {seccion.puntos.map((punto, i) => (
+                    <li key={`${seccion.id}-${i}`}>{punto}</li>
+                  ))}
+                </ul>
+              )}
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div className="estudio-grid">
+          {contenido.secciones.map(seccion => (
+            <article key={seccion.id} className="estudio-card">
+              <h2>{seccion.titulo}</h2>
+              <ul>
+                {seccion.puntos.map((punto, i) => (
+                  <li key={`${seccion.id}-${i}`}>{punto}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
+function InfoExamen({ temasDisponibles, onStart }) {
+  const totalDisponibles = temasDisponibles.reduce((acc, t) => acc + t.preguntas.length, 0)
+  const puedeIniciar = totalDisponibles >= 20
+
+  return (
+    <div className="info-examen">
+      <div className="info-examen-icono">📋</div>
+      <h2>Simulacro de Examen</h2>
+      <p>
+        Este modo genera <strong>20 preguntas aleatorias</strong> usando la distribución oficial entre temas.
+      </p>
+      <table className="distribucion-tabla">
+        <thead>
+          <tr><th>Tema</th><th>Preguntas</th></tr>
+        </thead>
+        <tbody>
+          {Object.entries(DISTRIBUCION_EXAMEN).map(([tema, n]) => (
+            <tr key={tema}>
+              <td>Tema {tema}</td>
+              <td>{n}</td>
+            </tr>
+          ))}
+          <tr className="total-row"><td>Total</td><td>20</td></tr>
+        </tbody>
+      </table>
+      <p className="info-pendiente">Banco actual: {totalDisponibles} preguntas disponibles.</p>
+      <button className="btn-corregir" onClick={onStart} disabled={!puedeIniciar}>
+        {puedeIniciar ? 'Empezar simulacro' : 'Necesitas al menos 20 preguntas cargadas'}
+      </button>
+    </div>
+  )
+}
+
+export default function App() {
+  const [vista, setVista] = useState(null)
+  const [preguntas, setPreguntas] = useState(null)
+
+  function iniciarTema(temaData) {
+    const seleccion = shuffle(temaData.preguntas).slice(0, 20).map(p => ({ ...p, temaId: temaData.id }))
+    setPreguntas(seleccion)
+    setVista({ tipo: 'tema', tema: temaData })
+  }
+
+  function iniciarSimulacro(temasDisponibles) {
+    const seleccion = construirSimulacro(temasDisponibles)
+    setPreguntas(seleccion)
+    setVista({ tipo: 'examen' })
+  }
+
+  function volver() {
+    setVista(null)
+    setPreguntas(null)
+  }
+
+  const temasDisponibles = TEMAS
+
+  return (
+    <div className="layout">
+      <nav className="sidebar">
+        <div className="sidebar-logo">Licencia de Armas D/E</div>
+
+        <p className="sidebar-seccion">Estudiar</p>
+        <button
+          className={`sidebar-item ${vista === 'estudio' ? 'activo' : ''}`}
+          onClick={() => { setVista('estudio'); setPreguntas(null) }}
+        >
+          <span className="sidebar-num">📚</span>
+          <span className="sidebar-nombre">Temario Resumido</span>
+        </button>
+
+        <button
+          className={`sidebar-item ${vista === 'estudio-completo' ? 'activo' : ''}`}
+          onClick={() => { setVista('estudio-completo'); setPreguntas(null) }}
+        >
+          <span className="sidebar-num">📖</span>
+          <span className="sidebar-nombre">Temario Completo</span>
+        </button>
+
+        <p className="sidebar-seccion">Practicar por tema</p>
+        {TODOS_LOS_TEMAS.map(t => {
+          const datos = temasDisponibles.find(td => td.id === t.id)
+          const activo = vista?.tema?.id === t.id
+          return (
+            <button
+              key={t.id}
+              className={`sidebar-item ${activo ? 'activo' : ''} ${!t.cargado ? 'deshabilitado' : ''}`}
+              onClick={() => t.cargado ? iniciarTema(datos) : null}
+              title={!t.cargado ? 'Próximamente' : ''}
+            >
+              <span className="sidebar-num">T{t.id}</span>
+              <span className="sidebar-nombre">{t.nombre}</span>
+              {!t.cargado && <span className="sidebar-badge">Pronto</span>}
+            </button>
+          )
+        })}
+
+        <div className="sidebar-separador" />
+
+        <button
+          className={`sidebar-item examen ${vista === 'examen' ? 'activo' : ''}`}
+          onClick={() => { setVista('examen'); setPreguntas(null) }}
+        >
+          <span className="sidebar-num">📋</span>
+          <span className="sidebar-nombre">Practicar Examen</span>
+        </button>
+      </nav>
+
+      <main className="contenido">
+        {vista === 'estudio' ? (
+          <ModoEstudio contenido={temarioEstudio} titulo="Temario Resumido" />
+        ) : vista === 'estudio-completo' ? (
+          <ModoEstudio contenido={temarioCompleto} titulo="Temario Completo" desplegable />
+        ) : vista === 'examen' && preguntas ? (
+          <>
+            <h1 className="contenido-titulo">Simulacro de Examen</h1>
+            <Quiz preguntas={preguntas} onFinish={volver} temaId={null} passThreshold={16} />
+          </>
+        ) : vista === 'examen' ? (
+          <InfoExamen temasDisponibles={temasDisponibles} onStart={() => iniciarSimulacro(temasDisponibles)} />
+        ) : vista?.tipo === 'tema' && preguntas ? (
+          <>
+            <h1 className="contenido-titulo">Tema {vista.tema.id} — {vista.tema.nombre}</h1>
+            <Quiz preguntas={preguntas} onFinish={volver} temaId={vista.tema.id} />
+          </>
+        ) : (
+          <div className="bienvenida">
+            <h1>Bienvenido</h1>
+            <p>Selecciona un tema del menú lateral para empezar a practicar.</p>
+          </div>
+        )}
+      </main>
+    </div>
+  )
+}

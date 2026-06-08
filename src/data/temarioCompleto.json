@@ -1,0 +1,203 @@
+{
+  "titulo": "Temario completo para licencias D/E y AEM",
+  "fuente": "https://www.cpguadalentin.com/TEMARIO%20OBJETO%20DE%20ESTUDIO%20LICENCIA%20DE%20ARMAS/TEMARIO%20OBJETO%20DE%20ESTUDIO%20PARA%20L.html",
+  "aviso": "Contenido ampliado y parafraseado para estudio. Contrasta siempre con el Reglamento de Armas vigente y las indicaciones de la Intervencion de Armas.",
+  "secciones": [
+    {
+      "id": "marco-general",
+      "titulo": "Marco general de la prueba",
+      "puntos": [
+        "La prueba para licencias D, E y autorizacion de menores combina parte teorica y practica.",
+        "La teorica suele ser un test de 20 preguntas con tiempo limitado.",
+        "El aprobado habitual es 16/20.",
+        "La seleccion de preguntas se reparte entre seis temas.",
+        "Cada convocatoria la organiza la Guardia Civil segun calendario provincial.",
+        "Hay exenciones en supuestos concretos de titulares de determinadas licencias previas.",
+        "El objetivo del estudio no es solo memorizar, sino entender seguridad, documentacion y responsabilidad.",
+        "La normativa base es el Reglamento de Armas y resoluciones de desarrollo."
+      ]
+    },
+    {
+      "id": "tema1-funcionamiento",
+      "titulo": "Tema 1. Funcionamiento, piezas, conservacion y seguridad",
+      "puntos": [
+        "Diferencia clave: automatica (rafagas manteniendo disparador), semiautomatica (un disparo por accion), repeticion (mecanismo manual entre disparos), un solo tiro.",
+        "Partes habituales: canion, recamara, culata, cerrojo o bascula, disparador, guardamonte, seguro, extractor y expulsor.",
+        "En escopetas puede aparecer choke en la boca de fuego para concentrar o abrir el plomeo; los rifles no usan ese sistema de la misma forma.",
+        "El mecanismo de seguridad evita disparos involuntarios aun con arma montada.",
+        "Disparar en vacio puede provocar averias en elementos de percusion en algunos modelos.",
+        "La limpieza interior se hace con baqueta y utiles adecuados, con lubricacion correcta.",
+        "Si el arma se moja, debe secarse, limpiarse y engrasarse cuanto antes para evitar corrosion.",
+        "Norma de oro: dedo fuera del gatillo salvo orden de disparo y siempre orientacion segura del canion."
+      ]
+    },
+    {
+      "id": "tema1-seguridad-practica",
+      "titulo": "Tema 1. Medidas de seguridad en tenencia y transporte",
+      "puntos": [
+        "Armas largas rayadas de caza mayor deben custodiarse con medidas reforzadas segun reglamento (armero homologado).",
+        "Escopetas y otras armas deben quedar fuera del alcance de terceros, especialmente menores.",
+        "No se deben dejar armas en vehiculos estacionados como forma de custodia habitual.",
+        "Durante desplazamiento: arma descargada y sin alimentar.",
+        "Al recibir o entregar un arma, comprobar siempre estado de descarga.",
+        "Si no conoces su funcionamiento, no manipules hasta recibir instruccion.",
+        "En caza, mantener orientacion de seguridad y seguro accionado hasta momento de uso.",
+        "Antes de disparar con rifle, confirmar entorno y zona de impacto para evitar rebotes y riesgos a terceros."
+      ]
+    },
+    {
+      "id": "tema2-categorias",
+      "titulo": "Tema 2. Categorias de armas",
+      "puntos": [
+        "Las categorias se determinan por caracteristicas tecnicas, destino y peligrosidad.",
+        "1a categoria: armas cortas de fuego (pistolas y revolveres).",
+        "2a categoria: armas largas rayadas de caza mayor y otras de vigilancia/guarderia segun definicion legal.",
+        "3a categoria: escopetas, armas de tiro deportivo de pequeño calibre y ciertas armas de aire con energia alta.",
+        "4a categoria: carabinas y pistolas accionadas por aire/gas en supuestos concretos.",
+        "5a, 6a y 7a categorias incluyen armas blancas no prohibidas, historicas y otras asimiladas (ballestas, lanzacabos, etc.).",
+        "Es frecuente en examen distinguir categoria juridica del arma frente a licencia exigida para su uso.",
+        "Tambien se pregunta diferencia entre arma corta y larga por medidas de canion y longitud total."
+      ]
+    },
+    {
+      "id": "tema2-prohibidas",
+      "titulo": "Tema 2. Armas prohibidas y armas de guerra",
+      "puntos": [
+        "Hay prohibiciones expresas sobre determinadas configuraciones semiautomaticas y accesorios.",
+        "Silenciadores para armas de fuego estan prohibidos para particulares.",
+        "Tambien se prohiben municiones concretas (por ejemplo, perforantes, explosivas o incendiarias) fuera de supuestos legales.",
+        "Las armas de fuego largas con canones recortados son un supuesto tipico de prohibicion.",
+        "Las armas automaticas se consideran de guerra y su tenencia por particulares esta prohibida.",
+        "El concepto de arma de guerra depende de calibre y clasificacion del Ministerio de Defensa.",
+        "Existen supuestos excepcionales para ciertos calibres de uso cinegetico bajo condiciones especificas.",
+        "En test suele aparecer la diferencia entre arma reglamentada, prohibida y de guerra."
+      ]
+    },
+    {
+      "id": "tema3-circulacion",
+      "titulo": "Tema 3. Circulacion y envio de armas",
+      "puntos": [
+        "La guia de circulacion ampara determinados traslados entre lugares cuando no procede transporte ordinario con guia de pertenencia/licencia.",
+        "Los envases deben acondicionarse para seguridad y, en casos regulados, ir precintados.",
+        "No se pueden enviar armas cargadas ni junto con cartucheria utilizable para ellas.",
+        "Segun volumen y tipo de envio, intervienen empresas de transporte o seguridad autorizadas.",
+        "No deben mezclarse en un mismo envio armas/piezas de destinatarios distintos.",
+        "En compras fuera del lugar de residencia hay tramites y plazos para documentar el arma en la Intervencion correspondiente.",
+        "El destinatario de un envio retirado en Intervencion debe acreditar habilitacion documental para adquirir el arma.",
+        "La trazabilidad documental del traslado es parte central del control administrativo."
+      ]
+    },
+    {
+      "id": "tema3-revista-transferencia",
+      "titulo": "Tema 3. Revista y transferencia",
+      "puntos": [
+        "La revista de armas tiene periodicidad segun categoria y tipo de arma.",
+        "Para pasar revista es imprescindible presentar el arma personalmente o por tercero autorizado por escrito.",
+        "No pasar dos revistas consecutivas puede implicar retirada de guia y deposito obligatorio.",
+        "Toda cesion o venta requiere que el receptor tenga licencia/tarjeta/habilitacion correspondiente.",
+        "La Intervencion de Armas participa en la transferencia y emite nueva guia de pertenencia al adquirente.",
+        "La guia del vendedor se recoge y se anula.",
+        "El prestamo temporal para caza o tiro es posible con autorizacion escrita y limites reglamentarios.",
+        "Las armas prestadas deben ir con su documentacion exigible."
+      ]
+    },
+    {
+      "id": "tema4-licencias",
+      "titulo": "Tema 4. Licencias, guias y tarjeta europea",
+      "puntos": [
+        "Nadie puede poseer o portar armas de fuego sin autorizacion valida en territorio espanol.",
+        "Licencia D: arma larga rayada para caza mayor.",
+        "Licencia E: escopetas y determinadas categorias (incluidas algunas del grupo 7).",
+        "Licencia F: armas de concurso para tiradores federados; B y C para supuestos distintos de particulares/seguridad.",
+        "Cada arma sujeta a documentacion debe contar con guia de pertenencia individual.",
+        "La Tarjeta Europea de Armas de Fuego facilita desplazamientos en la UE con condiciones y limites.",
+        "La tarjeta es personal, intransferible y recoge armas concretas del titular.",
+        "En desplazamientos internacionales hay que acreditar motivo de viaje y cumplimiento documental."
+      ]
+    },
+    {
+      "id": "tema4-tramites",
+      "titulo": "Tema 4. Solicitudes, renovaciones y menores",
+      "puntos": [
+        "La solicitud se presenta en la Intervencion de Armas del domicilio.",
+        "Documentacion habitual: antecedentes penales en vigor, identificacion oficial y aptitud psicofisica.",
+        "Para licencia E suele exigirse acreditacion de practica real de caza o deporte correspondiente.",
+        "En renovaciones puede requerirse revista de armas documentadas.",
+        "Si licencia o guia se pierde, roba o destruye, debe comunicarse de inmediato.",
+        "Puede emitirse autorizacion temporal de uso durante tramitaciones en supuestos previstos.",
+        "Menores con autorizacion especial: uso limitado por edad y siempre bajo acompanamiento responsable.",
+        "El incumplimiento de requisitos puede derivar en revocacion de licencia y deposito de armas."
+      ]
+    },
+    {
+      "id": "tema5-sancionador",
+      "titulo": "Tema 5. Regimen sancionador",
+      "puntos": [
+        "En materia de armas pueden concurrir infracciones penales o administrativas.",
+        "Las administrativas se clasifican en muy graves, graves y leves.",
+        "Cada categoria de infraccion tiene plazos de prescripcion propios.",
+        "Las sanciones tambien tienen sus propios plazos de prescripcion por gravedad.",
+        "No se puede castigar penal y administrativamente el mismo hecho (principio non bis in idem).",
+        "Las autoridades con competencia sancionadora incluyen DGGC, Delegacion de Gobierno y alcaldias en su marco.",
+        "La ejecucion de sanciones se vincula a la firmeza administrativa de la resolucion.",
+        "El conocimiento de cuantias y tipologias aparece de forma recurrente en el examen."
+      ]
+    },
+    {
+      "id": "tema5-infracciones",
+      "titulo": "Tema 5. Ejemplos tipicos de infraccion",
+      "puntos": [
+        "Muy graves: fabricacion/comercio no autorizado de ciertas armas prohibidas o de guerra y uso de armas prohibidas.",
+        "Graves: tenencia o uso sin licencia/guia en supuestos reglados, omision de medidas de seguridad exigibles.",
+        "Leves: omisiones documentales o de comunicacion cuando no alcanzan umbral de gravedad superior.",
+        "No pasar revistas obligatorias y no comunicar perdidas de documentacion puede ser sancionable.",
+        "Portar armas en lugares publicos no habilitados para ello es una conducta tipificada.",
+        "El uso sin precauciones para evitar riesgos a personas o bienes conlleva sancion e incautacion en determinados casos.",
+        "Puede acordarse retirada de licencias, armas y municion segun gravedad.",
+        "En muchas preguntas se pide identificar correctamente si el caso es leve, grave o muy grave."
+      ]
+    },
+    {
+      "id": "tema6-reparacion",
+      "titulo": "Tema 6. Reparacion y prueba de armas",
+      "puntos": [
+        "La reparacion de armas de fuego corresponde a fabricantes autorizados o armeros habilitados.",
+        "El armero debe llevar registro de entradas/salidas y remitir informacion periodica cuando proceda.",
+        "No se admite arma a reparar sin su documentacion exigible (guia de pertenencia o circulacion segun caso).",
+        "La guia puede quedar en deposito del armero mientras dure la reparacion.",
+        "No se permite modificar caracteristicas o calibre sin control de la Intervencion y aprobaciones pertinentes.",
+        "La prueba de armas solo se hace en campos, galerias o terrenos autorizados.",
+        "Cuando un posible comprador prueba un arma, debe tener licencia y documento personal/intransferible visado.",
+        "El documento de prueba fija arma concreta, lugar y plazo de validez."
+      ]
+    },
+    {
+      "id": "tema6-deposito",
+      "titulo": "Tema 6. Deposito de armas",
+      "puntos": [
+        "Si fallece el titular, herederos o albacea deben depositar armas en plazo reglamentario.",
+        "El deposito tambien procede cuando se pierde habilitacion legal para tenencia.",
+        "Caducidad, anulación o extravio de licencias/guias puede implicar deposito inmediato.",
+        "No pasar dos revistas consecutivas implica retirada de guia y deposito del arma.",
+        "Durante el deposito hay plazos para recuperar, documentar, enajenar o inutilizar segun supuesto.",
+        "Transcurridos plazos sin regularizacion, puede procederse a subasta publica.",
+        "El importe de subasta sigue el regimen legal aplicable a titulares/herederos.",
+        "El deposito cierra el riesgo de tenencia irregular mientras se resuelve la situacion administrativa."
+      ]
+    },
+    {
+      "id": "practica-operativa",
+      "titulo": "Prueba practica. Secuencia y criterios",
+      "puntos": [
+        "Secuencia evaluada: cargar, apuntar, disparar y descargar con seguridad continua.",
+        "Nunca se dispara ni se monta el arma sin orden del instructor.",
+        "En carga y descarga, orientacion segura y dedo fuera del gatillo son criterios criticos.",
+        "Con rifle suele pedirse serie de cinco disparos con minimo de impacto valido segun convocatoria.",
+        "Con escopeta se valora plomeo suficiente sobre diana y correcta ejecucion de maniobras.",
+        "Disparar fuera de orden, barrer zonas inseguras o no dejar arma en estado reglamentario penaliza gravemente.",
+        "Al finalizar, el arma debe quedar abierta o con accion abierta, sin cartuchos ni vainas.",
+        "La seguridad del manejo pesa tanto como la precision del tiro."
+      ]
+    }
+  ]
+}

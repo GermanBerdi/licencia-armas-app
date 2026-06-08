@@ -1,0 +1,367 @@
+{
+  "id": 4,
+  "nombre": "Documentacion y Licencias",
+  "descripcion": "Licencias de armas, guias de pertenencia, tarjeta europea y tramite de solicitudes.",
+  "preguntas": [
+    {
+      "id": 4001,
+      "texto": "Para poseer y usar armas de fuego en territorio espanol se requiere:",
+      "opciones": [
+        { "id": "a", "texto": "Autorizacion o licencia correspondiente expedida por organo competente.", "correcta": true },
+        { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "Solo DNI.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4002,
+      "texto": "La licencia de armas D documenta:",
+      "opciones": [
+        { "id": "a", "texto": "Armas largas rayadas para caza mayor.", "correcta": true },
+        { "id": "b", "texto": "Escopetas de caza.", "correcta": false },
+        { "id": "c", "texto": "Pistolas de particulares.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4003,
+      "texto": "La licencia de armas E ampara, entre otras:",
+      "opciones": [
+        { "id": "a", "texto": "Armas de categorias 3a y 7a.2/7a.3 en los terminos reglamentarios.", "correcta": true },
+        { "id": "b", "texto": "Armas cortas de defensa personal.", "correcta": false },
+        { "id": "c", "texto": "Armas de guerra.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4004,
+      "texto": "La licencia B corresponde a:",
+      "opciones": [
+        { "id": "a", "texto": "Armas de fuego cortas de particulares.", "correcta": true },
+        { "id": "b", "texto": "Armas largas rayadas.", "correcta": false },
+        { "id": "c", "texto": "Escopetas de caza.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4005,
+      "texto": "La licencia F documenta:",
+      "opciones": [
+        { "id": "a", "texto": "Armas de concurso de tiro deportivo de federados.", "correcta": true },
+        { "id": "b", "texto": "Armas de caza mayor.", "correcta": false },
+        { "id": "c", "texto": "Armas blancas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4006,
+      "texto": "Para llevar y usar armas de 4a categoria se necesita:",
+      "opciones": [
+        { "id": "a", "texto": "Tarjeta de armas.", "correcta": true },
+        { "id": "b", "texto": "Licencia D.", "correcta": false },
+        { "id": "c", "texto": "Licencia E.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4007,
+      "texto": "Las solicitudes de expedicion de licencia de armas se presentan en:",
+      "opciones": [
+        { "id": "a", "texto": "Intervencion de Armas de la Guardia Civil del domicilio del interesado.", "correcta": true },
+        { "id": "b", "texto": "Ayuntamiento.", "correcta": false },
+        { "id": "c", "texto": "Juzgado de guardia.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4008,
+      "texto": "Para solicitar licencia, entre la documentacion basica se incluye:",
+      "opciones": [
+        { "id": "a", "texto": "Certificado de antecedentes penales, DNI/NIE e informe psicofisico.", "correcta": true },
+        { "id": "b", "texto": "Solo certificado medico.", "correcta": false },
+        { "id": "c", "texto": "Solo licencia federativa.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4009,
+      "texto": "Como norma general, la edad minima para solicitar nueva licencia de armas es:",
+      "opciones": [
+        { "id": "a", "texto": "18 anos.", "correcta": true },
+        { "id": "b", "texto": "16 anos.", "correcta": false },
+        { "id": "c", "texto": "14 anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4010,
+      "texto": "Los menores de 16 a 18 anos pueden usar armas de caza mayor si:",
+      "opciones": [
+        { "id": "a", "texto": "Tienen autorizacion especial de menores y van acompanados por mayor con licencia D/E/F.", "correcta": true },
+        { "id": "b", "texto": "Tienen licencia D propia.", "correcta": false },
+        { "id": "c", "texto": "Van solos con permiso de caza.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4011,
+      "texto": "Los menores de 14 a 18 anos pueden usar armas de categorias 3a.2 y 3a.3 si:",
+      "opciones": [
+        { "id": "a", "texto": "Obtienen autorizacion especial de uso para menores y cumplen condiciones de acompanamiento.", "correcta": true },
+        { "id": "b", "texto": "Tienen licencia B.", "correcta": false },
+        { "id": "c", "texto": "No existe ningun supuesto.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4012,
+      "texto": "Las autorizaciones especiales de uso para menores tienen validez:",
+      "opciones": [
+        { "id": "a", "texto": "Hasta la mayoria de edad del titular.", "correcta": true },
+        { "id": "b", "texto": "Tres anos.", "correcta": false },
+        { "id": "c", "texto": "Un ano renovable.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4013,
+      "texto": "Las solicitudes de autorizacion especial para menores deben ir suscritas por:",
+      "opciones": [
+        { "id": "a", "texto": "El interesado y quien ejerza patria potestad o tutela.", "correcta": true },
+        { "id": "b", "texto": "Solo el menor.", "correcta": false },
+        { "id": "c", "texto": "Solo el tutor.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4014,
+      "texto": "En renovaciones de licencia, si el solicitante es titular de armas de esa licencia, debe:",
+      "opciones": [
+        { "id": "a", "texto": "Presentar el arma para revista, personalmente o por tercero autorizado por escrito.", "correcta": true },
+        { "id": "b", "texto": "Presentar solo fotocopias.", "correcta": false },
+        { "id": "c", "texto": "No presentar ningun arma.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4015,
+      "texto": "Cuando la licencia esta proxima a caducar y se solicita renovacion, puede expedirse:",
+      "opciones": [
+        { "id": "a", "texto": "Autorizacion temporal de uso de armas.", "correcta": true },
+        { "id": "b", "texto": "Nueva guia de pertenencia automatica.", "correcta": false },
+        { "id": "c", "texto": "Permiso municipal de caza.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4016,
+      "texto": "La autorizacion temporal de uso de armas por renovacion suele tener validez de:",
+      "opciones": [
+        { "id": "a", "texto": "Tres meses.", "correcta": true },
+        { "id": "b", "texto": "Un mes.", "correcta": false },
+        { "id": "c", "texto": "Doce meses.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4017,
+      "texto": "Si se pierde, destruye o sustrae un arma de categorias 1a, 2a o 3a, el titular debe:",
+      "opciones": [
+        { "id": "a", "texto": "Comunicarlo inmediatamente a la Intervencion de Armas y entregar la guia de pertenencia.", "correcta": true },
+        { "id": "b", "texto": "Esperar 30 dias.", "correcta": false },
+        { "id": "c", "texto": "Comunicarlo solo al seguro privado.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4018,
+      "texto": "Si se pierden o roban licencias o guias, la Intervencion puede:",
+      "opciones": [
+        { "id": "a", "texto": "Extender autorizacion temporal de uso o exigir deposito inmediato de armas.", "correcta": true },
+        { "id": "b", "texto": "No hacer nada hasta juicio.", "correcta": false },
+        { "id": "c", "texto": "Anular automaticamente toda licencia para siempre.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4019,
+      "texto": "Cada arma de categorias 1a, 2a, 3a, 6a y 7a.1-4, para su tenencia, debe estar documentada con:",
+      "opciones": [
+        { "id": "a", "texto": "Su guia de pertenencia.", "correcta": true },
+        { "id": "b", "texto": "Su licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "Su tarjeta sanitaria.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4020,
+      "texto": "La guia de pertenencia acompana al arma en:",
+      "opciones": [
+        { "id": "a", "texto": "Uso, deposito y transporte.", "correcta": true },
+        { "id": "b", "texto": "Solo venta.", "correcta": false },
+        { "id": "c", "texto": "Solo en domicilio.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4021,
+      "texto": "Cuantas armas se resenan en una guia de pertenencia?",
+      "opciones": [
+        { "id": "a", "texto": "Una.", "correcta": true },
+        { "id": "b", "texto": "Dos.", "correcta": false },
+        { "id": "c", "texto": "Todas las del titular.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4022,
+      "texto": "Que numero maximo permite la licencia E en terminos generales?",
+      "opciones": [
+        { "id": "a", "texto": "Hasta 6 escopetas o 6 largas rayadas de tiro deportivo, y 12 en total.", "correcta": true },
+        { "id": "b", "texto": "Hasta 12 escopetas y 12 rifles.", "correcta": false },
+        { "id": "c", "texto": "Sin limite numerico.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4023,
+      "texto": "Para viajar por la UE con armas documentadas, el titular debe portar:",
+      "opciones": [
+        { "id": "a", "texto": "Tarjeta Europea de Armas de Fuego.", "correcta": true },
+        { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "Solo licencia nacional.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4024,
+      "texto": "La Tarjeta Europea de Armas de Fuego tiene una vigencia maxima de:",
+      "opciones": [
+        { "id": "a", "texto": "Cinco anos.", "correcta": true },
+        { "id": "b", "texto": "Tres anos.", "correcta": false },
+        { "id": "c", "texto": "Un ano.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4025,
+      "texto": "Para renovar la Tarjeta Europea de Armas se exige:",
+      "opciones": [
+        { "id": "a", "texto": "Mantener la titularidad de las armas que ampara.", "correcta": true },
+        { "id": "b", "texto": "Volver a examinarse teoricamente.", "correcta": false },
+        { "id": "c", "texto": "Cambiar de licencia nacional.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4026,
+      "texto": "Quienes pueden obtener Tarjeta Europea de Armas de Fuego expedida en Espana?",
+      "opciones": [
+        { "id": "a", "texto": "Espanoles y extranjeros residentes en Espana documentados para uso y tenencia.", "correcta": true },
+        { "id": "b", "texto": "Solo espanoles no residentes.", "correcta": false },
+        { "id": "c", "texto": "Cualquier turista.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4027,
+      "texto": "La solicitud de licencia E debe incluir, ademas de lo general:",
+      "opciones": [
+        { "id": "a", "texto": "Acreditacion de dedicacion real al ejercicio de la caza o deportes correspondientes.", "correcta": true },
+        { "id": "b", "texto": "Certificado del alcalde obligatoriamente.", "correcta": false },
+        { "id": "c", "texto": "Pasaporte diplomatico.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4028,
+      "texto": "Para acreditar practica de caza al solicitar D o E puede servir:",
+      "opciones": [
+        { "id": "a", "texto": "Licencia de caza en vigor.", "correcta": true },
+        { "id": "b", "texto": "Solo declaracion jurada.", "correcta": false },
+        { "id": "c", "texto": "Solo certificado deportivo.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4029,
+      "texto": "En arma combinada escopeta-rifle, la licencia se determina por:",
+      "opciones": [
+        { "id": "a", "texto": "El componente de mayor peligrosidad, normalmente D.", "correcta": true },
+        { "id": "b", "texto": "Siempre E.", "correcta": false },
+        { "id": "c", "texto": "Siempre dos licencias simultaneas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4030,
+      "texto": "Un titular de escopeta y arma larga rayada de caza mayor debe tener:",
+      "opciones": [
+        { "id": "a", "texto": "Licencias D y E.", "correcta": true },
+        { "id": "b", "texto": "Solo D.", "correcta": false },
+        { "id": "c", "texto": "Solo E.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4031,
+      "texto": "La vigencia de una licencia de armas esta condicionada a:",
+      "opciones": [
+        { "id": "a", "texto": "Mantener los requisitos exigidos en el Reglamento de Armas.", "correcta": true },
+        { "id": "b", "texto": "No cambiar de domicilio.", "correcta": false },
+        { "id": "c", "texto": "No superar 65 anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4032,
+      "texto": "La Administracion puede comprobar el mantenimiento de requisitos de licencia:",
+      "opciones": [
+        { "id": "a", "texto": "En cualquier momento.", "correcta": true },
+        { "id": "b", "texto": "Solo a peticion del titular.", "correcta": false },
+        { "id": "c", "texto": "Solo al caducar.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4033,
+      "texto": "Si no se mantienen los requisitos de otorgamiento de licencia procede:",
+      "opciones": [
+        { "id": "a", "texto": "Revocacion de la licencia.", "correcta": true },
+        { "id": "b", "texto": "Prorroga automatica.", "correcta": false },
+        { "id": "c", "texto": "Nada hasta infraccion penal.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4034,
+      "texto": "La retirada de licencias o autorizaciones especiales implica:",
+      "opciones": [
+        { "id": "a", "texto": "Revocacion e impedimento temporal de renovacion y deposito obligatorio de armas.", "correcta": true },
+        { "id": "b", "texto": "Solo aviso por escrito.", "correcta": false },
+        { "id": "c", "texto": "Destruccion inmediata del arma.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4035,
+      "texto": "La retirada de armas implica:",
+      "opciones": [
+        { "id": "a", "texto": "Desposesion y prohibicion de adquirir/poseer otras por plazo determinado (maximo reglamentario).", "correcta": true },
+        { "id": "b", "texto": "Simple suspension de caza.", "correcta": false },
+        { "id": "c", "texto": "Inhabilitacion perpetua.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4036,
+      "texto": "En mayores de 60 anos, para mantener vigencia de licencia, suele requerirse:",
+      "opciones": [
+        { "id": "a", "texto": "Visado periodico con informe favorable psicofisico.", "correcta": true },
+        { "id": "b", "texto": "Ninguna formalidad adicional.", "correcta": false },
+        { "id": "c", "texto": "Solo tasa municipal.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4037,
+      "texto": "Las licencias expedidas a mayores de 70 anos requieren, con caracter general:",
+      "opciones": [
+        { "id": "a", "texto": "Visado anual conforme al reglamento.", "correcta": true },
+        { "id": "b", "texto": "Visado cada 5 anos.", "correcta": false },
+        { "id": "c", "texto": "No requieren visado.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4038,
+      "texto": "Quien expide la guia de pertenencia de un arma?",
+      "opciones": [
+        { "id": "a", "texto": "El Interventor de Armas.", "correcta": true },
+        { "id": "b", "texto": "El Delegado del Gobierno.", "correcta": false },
+        { "id": "c", "texto": "El alcalde.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4039,
+      "texto": "Un rifle automatico puede ampararse en licencia D?",
+      "opciones": [
+        { "id": "a", "texto": "No, por ser arma de guerra prohibida a particulares.", "correcta": true },
+        { "id": "b", "texto": "Si, siempre.", "correcta": false },
+        { "id": "c", "texto": "Si, con licencia de caza en vigor.", "correcta": false }
+      ]
+    },
+    {
+      "id": 4040,
+      "texto": "Para obtener licencia de armas D o E por primera vez, debe superarse:",
+      "opciones": [
+        { "id": "a", "texto": "Pruebas de capacitacion teorica y practica en los terminos reglamentarios.", "correcta": true },
+        { "id": "b", "texto": "Solo prueba teorica.", "correcta": false },
+        { "id": "c", "texto": "Solo prueba practica.", "correcta": false }
+      ]
+    }
+  ]
+}

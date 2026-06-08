@@ -1,0 +1,367 @@
+{
+  "id": 5,
+  "nombre": "Regimen Sancionador",
+  "descripcion": "Infracciones muy graves, graves y leves, prescripcion y retirada de armas.",
+  "preguntas": [
+    {
+      "id": 5001,
+      "texto": "En materia de armas los hechos pueden ser constitutivos de:",
+      "opciones": [
+        { "id": "a", "texto": "Infracciones penales e infracciones administrativas.", "correcta": true },
+        { "id": "b", "texto": "Solo infracciones penales.", "correcta": false },
+        { "id": "c", "texto": "Solo infracciones administrativas leves.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5002,
+      "texto": "Las infracciones administrativas en materia de armas se clasifican en:",
+      "opciones": [
+        { "id": "a", "texto": "Muy graves, graves y leves.", "correcta": true },
+        { "id": "b", "texto": "Graves, menos graves y leves.", "correcta": false },
+        { "id": "c", "texto": "Leves y graves solamente.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5003,
+      "texto": "Autoridades competentes para ordenar instruccion sancionadora en armas:",
+      "opciones": [
+        { "id": "a", "texto": "Director General de la Guardia Civil, Delegado del Gobierno y Alcaldes.", "correcta": true },
+        { "id": "b", "texto": "Solo Interventor de Armas.", "correcta": false },
+        { "id": "c", "texto": "Solo Ministerio de Defensa.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5004,
+      "texto": "Las infracciones administrativas leves prescriben a:",
+      "opciones": [
+        { "id": "a", "texto": "3 meses.", "correcta": true },
+        { "id": "b", "texto": "1 ano.", "correcta": false },
+        { "id": "c", "texto": "2 anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5005,
+      "texto": "Las infracciones administrativas graves prescriben a:",
+      "opciones": [
+        { "id": "a", "texto": "1 ano.", "correcta": true },
+        { "id": "b", "texto": "3 meses.", "correcta": false },
+        { "id": "c", "texto": "2 anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5006,
+      "texto": "Las infracciones administrativas muy graves prescriben a:",
+      "opciones": [
+        { "id": "a", "texto": "2 anos.", "correcta": true },
+        { "id": "b", "texto": "1 ano.", "correcta": false },
+        { "id": "c", "texto": "4 anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5007,
+      "texto": "Las sanciones leves prescriben a:",
+      "opciones": [
+        { "id": "a", "texto": "1 ano.", "correcta": true },
+        { "id": "b", "texto": "2 anos.", "correcta": false },
+        { "id": "c", "texto": "4 anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5008,
+      "texto": "Las sanciones graves prescriben a:",
+      "opciones": [
+        { "id": "a", "texto": "2 anos.", "correcta": true },
+        { "id": "b", "texto": "1 ano.", "correcta": false },
+        { "id": "c", "texto": "4 anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5009,
+      "texto": "Las sanciones muy graves prescriben a:",
+      "opciones": [
+        { "id": "a", "texto": "4 anos.", "correcta": true },
+        { "id": "b", "texto": "2 anos.", "correcta": false },
+        { "id": "c", "texto": "1 ano.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5010,
+      "texto": "Las sanciones en materia de armas son ejecutivas cuando:",
+      "opciones": [
+        { "id": "a", "texto": "La resolucion es firme en via administrativa.", "correcta": true },
+        { "id": "b", "texto": "A los diez dias de notificarse.", "correcta": false },
+        { "id": "c", "texto": "A los treinta dias siempre.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5011,
+      "texto": "Puede imponerse sancion penal y administrativa por el mismo hecho?",
+      "opciones": [
+        { "id": "a", "texto": "No, en ningun caso.", "correcta": true },
+        { "id": "b", "texto": "Si, siempre.", "correcta": false },
+        { "id": "c", "texto": "Solo si lo decide el alcalde.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5012,
+      "texto": "Si no es delito, la fabricacion o comercio de armas de fuego prohibidas sin habilitacion es infraccion:",
+      "opciones": [
+        { "id": "a", "texto": "Muy grave.", "correcta": true },
+        { "id": "b", "texto": "Grave.", "correcta": false },
+        { "id": "c", "texto": "Leve.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5013,
+      "texto": "Si no es delito, el uso de armas de fuego prohibidas constituye infraccion:",
+      "opciones": [
+        { "id": "a", "texto": "Muy grave.", "correcta": true },
+        { "id": "b", "texto": "Grave.", "correcta": false },
+        { "id": "c", "texto": "Leve.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5014,
+      "texto": "Si no es delito, el uso de armas de fuego cortas sin licencia/autorizacion/guia es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion muy grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve.", "correcta": false },
+        { "id": "c", "texto": "No sancionable.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5015,
+      "texto": "La omision de medidas de seguridad en fabricacion/almacenamiento de armas largas rayadas puede ser:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion muy grave.", "correcta": true },
+        { "id": "b", "texto": "Leve siempre.", "correcta": false },
+        { "id": "c", "texto": "Nunca sancionable.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5016,
+      "texto": "Si no es delito, en armas de categorias 4a a 7a la fabricacion/almacenamiento sin autorizacion es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion muy grave.", "correcta": false },
+        { "id": "c", "texto": "Infraccion leve.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5017,
+      "texto": "La omision de medidas de seguridad en domicilio de particulares con armas largas rayadas es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve.", "correcta": false },
+        { "id": "c", "texto": "Infraccion muy grave en todo caso.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5018,
+      "texto": "La adquisicion o tenencia de armas por particulares sin licencia/autorizacion exigida (2a.2, 3a.2...) es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve.", "correcta": false },
+        { "id": "c", "texto": "No infraccion si el arma esta en domicilio.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5019,
+      "texto": "El uso de armas de fuego reglamentarias sin licencia/guia (distinto de supuestos muy graves b/c) es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve.", "correcta": false },
+        { "id": "c", "texto": "No sancionable.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5020,
+      "texto": "Portar armas en establecimientos publicos o lugares de reunion, salvo habilitados, constituye:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve.", "correcta": false },
+        { "id": "c", "texto": "Conducta permitida con licencia.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5021,
+      "texto": "Utilizar armas sin adoptar medidas de seguridad para no causar peligro o danos se considera:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve siempre.", "correcta": false },
+        { "id": "c", "texto": "No infraccion si no hay lesion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5022,
+      "texto": "Las infracciones tipificadas para armas de fuego que se refieran a armas de 4a a 7a pasan a ser, en general:",
+      "opciones": [
+        { "id": "a", "texto": "Leves.", "correcta": true },
+        { "id": "b", "texto": "Muy graves.", "correcta": false },
+        { "id": "c", "texto": "Penales automaticamente.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5023,
+      "texto": "La omision de revista o exhibicion cuando es obligatoria puede ser infraccion:",
+      "opciones": [
+        { "id": "a", "texto": "Leve.", "correcta": true },
+        { "id": "b", "texto": "Muy grave siempre.", "correcta": false },
+        { "id": "c", "texto": "No tipificada.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5024,
+      "texto": "El incumplimiento de comunicar perdida/robo/sustraccion de armas es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion leve en su tipificacion administrativa correspondiente.", "correcta": true },
+        { "id": "b", "texto": "Nunca infraccion.", "correcta": false },
+        { "id": "c", "texto": "Solo infraccion penal.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5025,
+      "texto": "El incumplimiento de comunicar perdida/robo de licencias o guias de pertenencia constituye:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion leve.", "correcta": true },
+        { "id": "b", "texto": "Infraccion muy grave.", "correcta": false },
+        { "id": "c", "texto": "No infraccion si se comunica despues.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5026,
+      "texto": "La retirada de armas implica:",
+      "opciones": [
+        { "id": "a", "texto": "Desposesion y prohibicion de adquirir y poseer otras durante plazo determinado (max 2 anos).", "correcta": true },
+        { "id": "b", "texto": "Simple advertencia.", "correcta": false },
+        { "id": "c", "texto": "Suspension de caza sin deposito.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5027,
+      "texto": "La retirada de licencia o autorizacion especial supone:",
+      "opciones": [
+        { "id": "a", "texto": "Revocacion e impedimento de renovacion por plazo maximo de 2 anos, con deposito obligatorio.", "correcta": true },
+        { "id": "b", "texto": "Solo inmovilizacion de un arma.", "correcta": false },
+        { "id": "c", "texto": "Ningun efecto sobre renovacion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5028,
+      "texto": "La retirada de armas/licencias debe comunicarse al:",
+      "opciones": [
+        { "id": "a", "texto": "Registro Central de Guias y Licencias.", "correcta": true },
+        { "id": "b", "texto": "Registro mercantil.", "correcta": false },
+        { "id": "c", "texto": "Catastro.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5029,
+      "texto": "Se considera ilicito llevar o usar armas por concurrentes a establecimientos publicos o lugares de reunion?",
+      "opciones": [
+        { "id": "a", "texto": "Si, salvo supuestos y lugares habilitados por norma.", "correcta": true },
+        { "id": "b", "texto": "No, con licencia siempre es licito.", "correcta": false },
+        { "id": "c", "texto": "Solo es ilicito de noche.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5030,
+      "texto": "Recortar canones de un arma en casa, cualquiera que sea su fin:",
+      "opciones": [
+        { "id": "a", "texto": "No esta permitido.", "correcta": true },
+        { "id": "b", "texto": "Es valido con autorizacion verbal.", "correcta": false },
+        { "id": "c", "texto": "Es valido en escopetas de caza menor.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5031,
+      "texto": "Si no es delito, la reparacion sin autorizacion de una ballesta es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion muy grave.", "correcta": false },
+        { "id": "c", "texto": "Infraccion leve.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5032,
+      "texto": "Si no es delito, la adquisicion o tenencia de ballestas sin autorizaciones/licencias pertinentes es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion leve.", "correcta": true },
+        { "id": "b", "texto": "Infraccion muy grave.", "correcta": false },
+        { "id": "c", "texto": "No tipificada.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5033,
+      "texto": "La negativa a colaborar en controles/inspecciones sobre tenencia/utilizacion/almacenamiento puede constituir:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve siempre.", "correcta": false },
+        { "id": "c", "texto": "Ninguna infraccion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5034,
+      "texto": "En una infraccion muy grave, el rango sancionador economico se mueve (segun supuesto) en:",
+      "opciones": [
+        { "id": "a", "texto": "Multas de gran cuantia (decenas de miles a cientos de miles de euros).", "correcta": true },
+        { "id": "b", "texto": "Maximo 300 euros.", "correcta": false },
+        { "id": "c", "texto": "Solo apercibimiento.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5035,
+      "texto": "En una infraccion grave, el rango economico general del reglamento esta en torno a:",
+      "opciones": [
+        { "id": "a", "texto": "Centenas a decenas de miles de euros segun tipo.", "correcta": true },
+        { "id": "b", "texto": "Solo hasta 150 euros.", "correcta": false },
+        { "id": "c", "texto": "Solo mas de 100.000 euros.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5036,
+      "texto": "Las infracciones leves se sancionan, con caracter general, con multas:",
+      "opciones": [
+        { "id": "a", "texto": "De menor cuantia, hasta el limite legal previsto para leves.", "correcta": true },
+        { "id": "b", "texto": "Siempre superiores a 30.000 euros.", "correcta": false },
+        { "id": "c", "texto": "Solo con retirada definitiva.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5037,
+      "texto": "La omision de revistas de armas constituye, en su tipificacion administrativa:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion leve.", "correcta": true },
+        { "id": "b", "texto": "Infraccion muy grave.", "correcta": false },
+        { "id": "c", "texto": "No infraccion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5038,
+      "texto": "Tener un arma larga rayada en domicilio sin armero/caja fuerte adecuada puede ser:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave por insuficiencia de medidas de seguridad.", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve sin mas.", "correcta": false },
+        { "id": "c", "texto": "No infraccion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5039,
+      "texto": "La alegacion de datos falsos para obtener licencias/autorizaciones en materia de armas es:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion grave (si no constituye delito).", "correcta": true },
+        { "id": "b", "texto": "Infraccion leve.", "correcta": false },
+        { "id": "c", "texto": "No sancionable administrativamente.", "correcta": false }
+      ]
+    },
+    {
+      "id": 5040,
+      "texto": "Cuando no se desea recuperar armas depositadas por infraccion, su destino puede ser:",
+      "opciones": [
+        { "id": "a", "texto": "Subasta conforme al reglamento.", "correcta": true },
+        { "id": "b", "texto": "Uso libre por la autoridad local.", "correcta": false },
+        { "id": "c", "texto": "Devolucion automatica sin tramite.", "correcta": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": 3,
+  "nombre": "Circulacion y Transferencia",
+  "descripcion": "Guia de circulacion, envios, revista de armas, cesion y transferencia.",
+  "preguntas": [
+    {
+      "id": 3001,
+      "texto": "Como se denomina el documento que ampara el traslado entre dos lugares de armas cuando procede sin licencia ni guia de pertenencia?",
+      "opciones": [
+        { "id": "a", "texto": "Guia de circulacion.", "correcta": true },
+        { "id": "b", "texto": "Guia de transporte.", "correcta": false },
+        { "id": "c", "texto": "Albaran de circulacion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3002,
+      "texto": "Cuando un particular adquiere una escopeta en localidad distinta a su residencia, quien expide la guia de circulacion inicial?",
+      "opciones": [
+        { "id": "a", "texto": "La Intervencion de Armas del lugar de compra.", "correcta": true },
+        { "id": "b", "texto": "La Intervencion de Armas de su residencia.", "correcta": false },
+        { "id": "c", "texto": "El ayuntamiento.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3003,
+      "texto": "Quien expide la guia de circulacion para transportar armas de fuego de 3a categoria?",
+      "opciones": [
+        { "id": "a", "texto": "La Intervencion de Armas y Explosivos.", "correcta": true },
+        { "id": "b", "texto": "El Comandante de Puesto.", "correcta": false },
+        { "id": "c", "texto": "La alcaldia.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3004,
+      "texto": "Si se envia una escopeta sin licencia y sin guia de pertenencia, que documento ampara el traslado?",
+      "opciones": [
+        { "id": "a", "texto": "La guia de circulacion.", "correcta": true },
+        { "id": "b", "texto": "La autorizacion del armero.", "correcta": false },
+        { "id": "c", "texto": "Permiso municipal.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3005,
+      "texto": "Las armas reglamentadas y sus piezas fundamentales deben circular:",
+      "opciones": [
+        { "id": "a", "texto": "En envases acondicionados para seguridad durante el traslado.", "correcta": true },
+        { "id": "b", "texto": "Solo con funda textil.", "correcta": false },
+        { "id": "c", "texto": "Sin embalaje si van desmontadas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3006,
+      "texto": "Se pueden enviar a reparar en el mismo envase escopetas y su municion?",
+      "opciones": [
+        { "id": "a", "texto": "No.", "correcta": true },
+        { "id": "b", "texto": "Si, con limite de 25 armas.", "correcta": false },
+        { "id": "c", "texto": "Si, si van desmontadas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3007,
+      "texto": "Quien puede precintar envases que contengan armas largas de canon estriado?",
+      "opciones": [
+        { "id": "a", "texto": "Intervencion de Armas o armero/comerciante autorizado.", "correcta": true },
+        { "id": "b", "texto": "Solo Correos.", "correcta": false },
+        { "id": "c", "texto": "Solo empresa transportista.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3008,
+      "texto": "Pueden remitirse en un mismo envase armas destinadas a distintos destinatarios?",
+      "opciones": [
+        { "id": "a", "texto": "No.", "correcta": true },
+        { "id": "b", "texto": "Si, si es misma localidad.", "correcta": false },
+        { "id": "c", "texto": "Si, con autorizacion verbal.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3009,
+      "texto": "Se puede enviar rifle y escopeta en un mismo envase?",
+      "opciones": [
+        { "id": "a", "texto": "No, no deben ir juntas armas de canon estriado con escopetas de caza.", "correcta": true },
+        { "id": "b", "texto": "Si, siempre.", "correcta": false },
+        { "id": "c", "texto": "Solo si lo autoriza el comprador.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3010,
+      "texto": "En ningun caso podran hacerse envios o transportes de:",
+      "opciones": [
+        { "id": "a", "texto": "Armas cargadas o armas junto con cartucheria utilizable con ellas.", "correcta": true },
+        { "id": "b", "texto": "Armas limpias.", "correcta": false },
+        { "id": "c", "texto": "Armas desmontadas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3011,
+      "texto": "Puede un particular enviar una escopeta a reparar por una empresa de transportes?",
+      "opciones": [
+        { "id": "a", "texto": "Si, cumpliendo requisitos documentales y de seguridad.", "correcta": true },
+        { "id": "b", "texto": "No, nunca.", "correcta": false },
+        { "id": "c", "texto": "Solo por correo ordinario.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3012,
+      "texto": "Que plazo tiene el particular para acudir a su Intervencion y solicitar guia de pertenencia tras comprar escopeta fuera de su localidad?",
+      "opciones": [
+        { "id": "a", "texto": "Diez dias.", "correcta": true },
+        { "id": "b", "texto": "Treinta dias.", "correcta": false },
+        { "id": "c", "texto": "No hay plazo.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3013,
+      "texto": "Para retirar en Intervencion una escopeta enviada, el destinatario debe presentarse con:",
+      "opciones": [
+        { "id": "a", "texto": "Licencia o documento que le autorice para adquirirla.", "correcta": true },
+        { "id": "b", "texto": "Solo DNI.", "correcta": false },
+        { "id": "c", "texto": "Licencia de caza unicamente.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3014,
+      "texto": "Las armas de 1a categoria y las de concurso pasan revista cada:",
+      "opciones": [
+        { "id": "a", "texto": "Tres anos.", "correcta": true },
+        { "id": "b", "texto": "Cinco anos.", "correcta": false },
+        { "id": "c", "texto": "Un ano.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3015,
+      "texto": "Las demas armas que precisen guia de pertenencia pasan revista cada:",
+      "opciones": [
+        { "id": "a", "texto": "Cinco anos.", "correcta": true },
+        { "id": "b", "texto": "Tres anos.", "correcta": false },
+        { "id": "c", "texto": "Dos anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3016,
+      "texto": "Para pasar revista de armas es inexcusable:",
+      "opciones": [
+        { "id": "a", "texto": "Presentar el arma, personalmente o por tercero autorizado por escrito.", "correcta": true },
+        { "id": "b", "texto": "Presentar solo la licencia.", "correcta": false },
+        { "id": "c", "texto": "Presentar solo fotos del arma.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3017,
+      "texto": "No pasar dos revistas consecutivas puede implicar:",
+      "opciones": [
+        { "id": "a", "texto": "Anulacion y retirada de guia de pertenencia y deposito del arma.", "correcta": true },
+        { "id": "b", "texto": "Solo advertencia verbal.", "correcta": false },
+        { "id": "c", "texto": "Nada, si el arma no se usa.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3018,
+      "texto": "El hecho de no pasar la revista de armas constituye:",
+      "opciones": [
+        { "id": "a", "texto": "Infraccion administrativa.", "correcta": true },
+        { "id": "b", "texto": "Delito automaticamente.", "correcta": false },
+        { "id": "c", "texto": "Falta sin consecuencias.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3019,
+      "texto": "Una escopeta de caza, en general, pasa revista cada:",
+      "opciones": [
+        { "id": "a", "texto": "Cinco anos.", "correcta": true },
+        { "id": "b", "texto": "Tres anos.", "correcta": false },
+        { "id": "c", "texto": "Un ano.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3020,
+      "texto": "Puede un tercero pasar revista de una escopeta?",
+      "opciones": [
+        { "id": "a", "texto": "Si, si esta autorizado por escrito por el titular.", "correcta": true },
+        { "id": "b", "texto": "No, nunca.", "correcta": false },
+        { "id": "c", "texto": "Solo familiares de primer grado.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3021,
+      "texto": "Una carabina de aire comprimido de 4a categoria debe pasar revista?",
+      "opciones": [
+        { "id": "a", "texto": "No tiene que pasar revista.", "correcta": true },
+        { "id": "b", "texto": "Cada cinco anos.", "correcta": false },
+        { "id": "c", "texto": "Cada tres anos.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3022,
+      "texto": "El particular que desea enajenar un arma debe cederla a persona que posea:",
+      "opciones": [
+        { "id": "a", "texto": "Licencia, tarjeta o certificado de inutilizacion correspondientes.", "correcta": true },
+        { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "Cualquier documento de identidad.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3023,
+      "texto": "Al enajenar un arma de fuego, la guia de pertenencia del vendedor se entrega en:",
+      "opciones": [
+        { "id": "a", "texto": "La Intervencion de Armas.", "correcta": true },
+        { "id": "b", "texto": "El ayuntamiento.", "correcta": false },
+        { "id": "c", "texto": "La comisaria local.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3024,
+      "texto": "Debe comunicarse la enajenacion de un arma a la Intervencion de Armas?",
+      "opciones": [
+        { "id": "a", "texto": "Siempre.", "correcta": true },
+        { "id": "b", "texto": "Nunca.", "correcta": false },
+        { "id": "c", "texto": "Solo para armas cortas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3025,
+      "texto": "La enajenacion entre particulares genera para el comprador:",
+      "opciones": [
+        { "id": "a", "texto": "Nueva guia de pertenencia.", "correcta": true },
+        { "id": "b", "texto": "La misma guia del vendedor.", "correcta": false },
+        { "id": "c", "texto": "Solo un recibo privado.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3026,
+      "texto": "La venta de un arma de fuego se efectua siempre con conocimiento de:",
+      "opciones": [
+        { "id": "a", "texto": "Intervencion de Armas correspondiente.", "correcta": true },
+        { "id": "b", "texto": "Registro de la propiedad.", "correcta": false },
+        { "id": "c", "texto": "Diputacion provincial.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3027,
+      "texto": "Para ceder temporalmente armas de caza, la autorizacion debe hacerse:",
+      "opciones": [
+        { "id": "a", "texto": "Por escrito, fechada y firmada.", "correcta": true },
+        { "id": "b", "texto": "De palabra.", "correcta": false },
+        { "id": "c", "texto": "Por telefono.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3028,
+      "texto": "El plazo maximo general del prestamo de armas de caza para su uso cinegetico es:",
+      "opciones": [
+        { "id": "a", "texto": "Quince dias.", "correcta": true },
+        { "id": "b", "texto": "Un mes.", "correcta": false },
+        { "id": "c", "texto": "Seis meses.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3029,
+      "texto": "Las armas de caza prestadas deben entregarse siempre:",
+      "opciones": [
+        { "id": "a", "texto": "Con sus guias de pertenencia.", "correcta": true },
+        { "id": "b", "texto": "Solo con licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "Con guia de circulacion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3030,
+      "texto": "Se puede prestar un arma de caza a quien no tenga licencia de caza?",
+      "opciones": [
+        { "id": "a", "texto": "No.", "correcta": true },
+        { "id": "b", "texto": "Si, si tiene finca propia.", "correcta": false },
+        { "id": "c", "texto": "Si, en caza menor.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3031,
+      "texto": "Una carabina de aire comprimido con energia superior a 24,2 julios, al ir sin licencia ni guia de pertenencia entre localidades, requiere:",
+      "opciones": [
+        { "id": "a", "texto": "Guia de circulacion.", "correcta": true },
+        { "id": "b", "texto": "Ningun documento.", "correcta": false },
+        { "id": "c", "texto": "Permiso del alcalde.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3032,
+      "texto": "Ademas de la guia de circulacion, cuando se envia arma a reparar debe acompanar:",
+      "opciones": [
+        { "id": "a", "texto": "La guia de pertenencia, salvo sustitucion reglamentaria.", "correcta": true },
+        { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
+        { "id": "c", "texto": "No hace falta nada mas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3033,
+      "texto": "Para el pase de revista, quien realiza las anotaciones?",
+      "opciones": [
+        { "id": "a", "texto": "El Interventor de Armas.", "correcta": true },
+        { "id": "b", "texto": "El propio interesado.", "correcta": false },
+        { "id": "c", "texto": "El vendedor del arma.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3034,
+      "texto": "No pasar dos revistas consecutivas, ademas de retirada de guia, puede dar lugar a:",
+      "opciones": [
+        { "id": "a", "texto": "Apertura de expediente sancionador.", "correcta": true },
+        { "id": "b", "texto": "Perdida automatica de propiedad sin tramite.", "correcta": false },
+        { "id": "c", "texto": "Ninguna otra consecuencia.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3035,
+      "texto": "Un canion estriado adaptable a escopeta de caza con recamara metalica pasa revista cada:",
+      "opciones": [
+        { "id": "a", "texto": "Cinco anos.", "correcta": false },
+        { "id": "b", "texto": "Tres anos.", "correcta": true },
+        { "id": "c", "texto": "No pasa revista.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3036,
+      "texto": "Una carabina de repeticion accionada por gas comprimido no asimilada a escopeta pasa revista cada:",
+      "opciones": [
+        { "id": "a", "texto": "Tres anos.", "correcta": false },
+        { "id": "b", "texto": "Cinco anos.", "correcta": false },
+        { "id": "c", "texto": "No necesita pasar revista.", "correcta": true }
+      ]
+    },
+    {
+      "id": 3037,
+      "texto": "Cuando se remite un arma por reparacion u otras causas, la declaracion del contenido debe figurar:",
+      "opciones": [
+        { "id": "a", "texto": "En documentacion y en el paquete con claridad.", "correcta": true },
+        { "id": "b", "texto": "Solo en documentacion interna no visible.", "correcta": false },
+        { "id": "c", "texto": "En ningun sitio por reserva.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3038,
+      "texto": "Puede un particular transportar personalmente un arma larga rayada recien comprada sin guia de pertenencia hasta su Intervencion?",
+      "opciones": [
+        { "id": "a", "texto": "Si, con la documentacion que proceda para ese traslado.", "correcta": true },
+        { "id": "b", "texto": "No, en ningun caso.", "correcta": false },
+        { "id": "c", "texto": "Solo si es menor de 10 km.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3039,
+      "texto": "La cesion temporal de armas de caza a personas habilitadas puede hacerse tambien para:",
+      "opciones": [
+        { "id": "a", "texto": "Uso cinegetico en condiciones reglamentarias y por plazo limitado.", "correcta": true },
+        { "id": "b", "texto": "Defensa personal en domicilio ajeno.", "correcta": false },
+        { "id": "c", "texto": "Cualquier uso sin restriccion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 3040,
+      "texto": "Es correcto afirmar que una escopeta transportada por su titular con licencia y guia de pertenencia no necesita guia de circulacion en ese supuesto ordinario?",
+      "opciones": [
+        { "id": "a", "texto": "Si.", "correcta": true },
+        { "id": "b", "texto": "No, siempre necesita guia de circulacion.", "correcta": false },
+        { "id": "c", "texto": "Solo dentro de provincia.", "correcta": false }
+      ]
+    }
+  ]
+}
