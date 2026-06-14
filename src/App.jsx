@@ -15,7 +15,7 @@ const TODOS_LOS_TEMAS = [
   { id: 1, nombre: 'Mecánica y seguridad de las armas', cargado: true, podcast: '/audios/tema1.m4a' },
   { id: 2, nombre: 'Categoría de Armas', cargado: true, podcast: '/audios/tema2.m4a' },
   { id: 3, nombre: 'Circulación y Transferencia', cargado: true, podcast: '/audios/tema3.m4a' },
-  { id: 4, nombre: 'Documentación y Licencias', cargado: true },
+  { id: 4, nombre: 'Documentación y Licencias', cargado: true, podcast: '/audios/tema4.m4a' },
   { id: 5, nombre: 'Régimen Sancionador', cargado: true },
   { id: 6, nombre: 'Reparación y Depósito', cargado: true },
 ]
