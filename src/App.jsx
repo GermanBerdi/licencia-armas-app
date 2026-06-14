@@ -16,8 +16,9 @@ const TODOS_LOS_TEMAS = [
   { id: 2, nombre: 'Categoría de Armas', cargado: true, podcast: '/audios/tema2.m4a' },
   { id: 3, nombre: 'Circulación y Transferencia', cargado: true, podcast: '/audios/tema3.m4a' },
   { id: 4, nombre: 'Documentación y Licencias', cargado: true, podcast: '/audios/tema4.m4a' },
-  { id: 5, nombre: 'Régimen Sancionador', cargado: true },
-  { id: 6, nombre: 'Reparación y Depósito', cargado: true },
+  { id: 5, nombre: 'Régimen Sancionador', cargado: true, podcast: '/audios/tema5.m4a' },
+  { id: 6, nombre: 'Reparación y Depósito', cargado: true, podcast: '/audios/tema6.m4a' },
+  { id: 7, nombre: 'Armas de Colección e Historia', cargado: false, podcast: '/audios/tema7.m4a' },
 ]
 
 const DISTRIBUCION_EXAMEN = { 1: 4, 2: 3, 3: 3, 4: 4, 5: 3, 6: 3 }
