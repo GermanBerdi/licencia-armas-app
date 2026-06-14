@@ -12,7 +12,7 @@ import './App.css'
 const TEMAS = [tema1, tema2, tema3, tema4, tema5, tema6]
 
 const TODOS_LOS_TEMAS = [
-  { id: 1, nombre: 'Funcionamiento de las Armas', cargado: true },
+  { id: 1, nombre: 'Mecánica y seguridad de las armas', cargado: true, podcast: '/audios/tema1.m4a' },
   { id: 2, nombre: 'Categoría de Armas', cargado: true },
   { id: 3, nombre: 'Circulación y Transferencia', cargado: true },
   { id: 4, nombre: 'Documentación y Licencias', cargado: true },
@@ -48,13 +48,19 @@ function construirSimulacro(temasDisponibles) {
   return shuffle(seleccion).slice(0, 20)
 }
 
-function generarExplicacion(pregunta, temaId) {
+function abrirExplicacionChatGPT(pregunta, seleccionadaId) {
   const correcta = pregunta.opciones.find(o => o.correcta)
-  const incorrectas = pregunta.opciones.filter(o => !o.correcta)
-  const seccionTema = temarioEstudio.secciones.find(s => s.id === `tema${temaId}`)
-  const apoyo = seccionTema?.puntos?.[0] || 'La clave es aplicar la definicion tecnica del temario oficial.'
+  const opcionesTexto = pregunta.opciones
+    .map(o => `${o.id.toUpperCase()}) ${o.texto}`)
+    .join(', ')
 
-  return `La respuesta correcta es ${correcta.id.toUpperCase()} porque coincide con la definicion reglamentaria del concepto preguntado. ${apoyo} En cambio, ${incorrectas[0].id.toUpperCase()} y ${incorrectas[1].id.toUpperCase()} no son validas porque describen un mecanismo distinto o incompleto respecto a lo que pide la pregunta.`
+  const marcado = seleccionadaId
+    ? `marqué la opción ${seleccionadaId.toUpperCase()}) "${pregunta.opciones.find(o => o.id === seleccionadaId).texto}"`
+    : 'no llegué a responderla'
+
+  const prompt = `Estoy preparándome para sacarme la licencia de armas. En el cuestionario oficial aparece la siguiente pregunta: "${pregunta.texto}". Las opciones son: ${opcionesTexto}. Yo ${marcado} y la correcta es la ${correcta.id.toUpperCase()}) "${correcta.texto}". Explícame en un párrafo por qué las otras dos opciones están mal y por qué la correcta es la ${correcta.id.toUpperCase()}.`
+
+  window.open(`https://chatgpt.com/?q=${encodeURIComponent(prompt)}`, '_blank')
 }
 
 function Quiz({ preguntas, onFinish, temaId, passThreshold = 12 }) {
@@ -119,11 +125,10 @@ function Quiz({ preguntas, onFinish, temaId, passThreshold = 12 }) {
         const acerto = corregido && seleccionada === correcta.id
         const fallo = corregido && seleccionada && seleccionada !== correcta.id
         const sinResponder = corregido && !seleccionada
-        const mostrarExplicacion = corregido && (fallo || sinResponder)
-        const textoExplicacion = pregunta.explicacion || generarExplicacion(pregunta, pregunta.temaId || temaId)
+        const mostrarBotonExplicacion = corregido && (fallo || sinResponder)
 
         return (
-          <div key={pregunta.id} className={`pregunta-bloque ${mostrarExplicacion ? 'con-explicacion' : ''} ${acerto ? 'bloque-ok' : ''} ${fallo ? 'bloque-fail' : ''} ${sinResponder ? 'bloque-vacia' : ''}`}>
+          <div key={pregunta.id} className={`pregunta-bloque ${acerto ? 'bloque-ok' : ''} ${fallo ? 'bloque-fail' : ''} ${sinResponder ? 'bloque-vacia' : ''}`}>
             <div className="pregunta-contenido">
               <p className="pregunta-num">Pregunta {i + 1}</p>
               <p className="pregunta-texto">{pregunta.texto}</p>
@@ -152,11 +157,12 @@ function Quiz({ preguntas, onFinish, temaId, passThreshold = 12 }) {
               </ul>
               {sinResponder && <p className="feedback-vacia">— Sin responder</p>}
             </div>
-            {mostrarExplicacion && (
-              <aside className="explicacion-respuesta">
-                <p className="explicacion-titulo">Por que la correcta es {correcta.id.toUpperCase()}</p>
-                <p className="explicacion-texto">{textoExplicacion}</p>
-              </aside>
+            {mostrarBotonExplicacion && (
+              <div className="explicacion-accion">
+                <button className="btn-chatgpt" onClick={() => abrirExplicacionChatGPT(pregunta, seleccionada)}>
+                  Explicar con ChatGPT
+                </button>
+              </div>
             )}
           </div>
         )
@@ -325,6 +331,15 @@ export default function App() {
           <span className="sidebar-nombre">Temario Completo</span>
         </button>
 
+        <p className="sidebar-seccion">Audios</p>
+        <button
+          className={`sidebar-item ${vista === 'audios' ? 'activo' : ''}`}
+          onClick={() => { setVista('audios'); setPreguntas(null) }}
+        >
+          <span className="sidebar-num">🎙️</span>
+          <span className="sidebar-nombre">Podcasts por tema</span>
+        </button>
+
         <p className="sidebar-seccion">Practicar por tema</p>
         {TODOS_LOS_TEMAS.map(t => {
           const datos = temasDisponibles.find(td => td.id === t.id)
@@ -333,7 +348,7 @@ export default function App() {
             <button
               key={t.id}
               className={`sidebar-item ${activo ? 'activo' : ''} ${!t.cargado ? 'deshabilitado' : ''}`}
-              onClick={() => t.cargado ? iniciarTema(datos) : null}
+              onClick={() => t.cargado ? iniciarTema({ ...datos, podcast: t.podcast ?? null }) : null}
               title={!t.cargado ? 'Próximamente' : ''}
             >
               <span className="sidebar-num">T{t.id}</span>
@@ -366,6 +381,16 @@ export default function App() {
           </>
         ) : vista === 'examen' ? (
           <InfoExamen temasDisponibles={temasDisponibles} onStart={() => iniciarSimulacro(temasDisponibles)} />
+        ) : vista === 'audios' ? (
+          <div className="audio-vista">
+            <h1 className="contenido-titulo">Podcasts por tema</h1>
+            {TODOS_LOS_TEMAS.filter(t => t.podcast).map(t => (
+              <div key={t.id} className="podcast-item">
+                <p className="podcast-tema-nombre">Tema {t.id} — {t.nombre}</p>
+                <audio controls src={t.podcast} className="audio-player" />
+              </div>
+            ))}
+          </div>
         ) : vista?.tipo === 'tema' && preguntas ? (
           <>
             <h1 className="contenido-titulo">Tema {vista.tema.id} — {vista.tema.nombre}</h1>

@@ -151,6 +151,34 @@ body {
   color: #555;
 }
 
+/* Vista de audios */
+.audio-vista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 640px;
+}
+
+.podcast-item {
+  background: white;
+  border: 1px solid #dbe3ef;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.podcast-tema-nombre {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1a3a6c;
+}
+
+.audio-player {
+  width: 100%;
+}
+
 /* Quiz */
 .quiz { display: flex; flex-direction: column; gap: 1.5rem; padding-bottom: 5rem; }
 
@@ -280,13 +308,6 @@ body {
   transition: border-color 0.2s;
 }
 
-.pregunta-bloque.con-explicacion {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 1rem;
-  align-items: start;
-}
-
 .pregunta-contenido {
   display: flex;
   flex-direction: column;
@@ -363,27 +384,23 @@ body {
   font-style: italic;
 }
 
-.explicacion-respuesta {
-  border-left: 4px solid #1a3a6c;
-  background: #f4f8ff;
-  border-radius: 6px;
-  padding: 0.75rem 0.85rem;
+.explicacion-accion {
+  margin-top: 0.25rem;
 }
 
-.explicacion-titulo {
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: #1a3a6c;
-  margin-bottom: 0.25rem;
+.btn-chatgpt {
+  padding: 0.5rem 1rem;
+  background: #10a37f;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
 }
 
-.explicacion-texto {
-  font-size: 0.92rem;
-  line-height: 1.45;
-  color: #263242;
-}
+.btn-chatgpt:hover { background: #0d8a6c; }
 
 /* Barra inferior fija para corregir */
 .barra-corregir {
@@ -640,7 +657,4 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .pregunta-bloque.con-explicacion {
-    grid-template-columns: 1fr;
-  }
 }
