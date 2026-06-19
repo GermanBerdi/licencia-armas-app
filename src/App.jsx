@@ -319,6 +319,7 @@ function InfoExamen({ temasDisponibles, onStart }) {
 export default function App() {
   const [vista, setVista] = useState(null)
   const [preguntas, setPreguntas] = useState(null)
+  const [seccionAbierta, setSeccionAbierta] = useState(null)
 
   function iniciarTema(temaData) {
     const seleccion = shuffle(temaData.preguntas).slice(0, 20).map(p => ({ ...p, temaId: temaData.id }))
@@ -375,10 +376,12 @@ export default function App() {
           <span className="sidebar-nombre">Podcasts por tema</span>
         </button>
 
-        <p className="sidebar-seccion">Practicar por tema</p>
-        {TODOS_LOS_TEMAS.map(t => {
+        <p className="sidebar-seccion sidebar-seccion-toggle" onClick={() => setSeccionAbierta(s => s === 'practicar' ? null : 'practicar')}>
+          <span>{seccionAbierta === 'practicar' ? '▾' : '▸'} Practicar por tema</span>
+        </p>
+        {seccionAbierta === 'practicar' && TODOS_LOS_TEMAS.map(t => {
           const datos = temasDisponibles.find(td => td.id === t.id)
-          const activo = vista?.tema?.id === t.id
+          const activo = vista?.tipo === 'tema' && vista?.tema?.id === t.id
           return (
             <button
               key={t.id}
@@ -393,8 +396,10 @@ export default function App() {
           )
         })}
 
-        <p className="sidebar-seccion">Estudiar cuestionarios</p>
-        {TODOS_LOS_TEMAS.map(t => {
+        <p className="sidebar-seccion sidebar-seccion-toggle" onClick={() => setSeccionAbierta(s => s === 'estudiar' ? null : 'estudiar')}>
+          <span>{seccionAbierta === 'estudiar' ? '▾' : '▸'} Estudiar cuestionarios</span>
+        </p>
+        {seccionAbierta === 'estudiar' && TODOS_LOS_TEMAS.map(t => {
           const datos = temasDisponibles.find(td => td.id === t.id)
           const activo = vista?.tipo === 'estudiar' && vista?.tema?.id === t.id
           return (

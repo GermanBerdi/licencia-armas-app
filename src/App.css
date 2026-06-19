@@ -43,6 +43,15 @@ body {
   margin-top: 0.25rem;
 }
 
+.sidebar-seccion-toggle {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sidebar-seccion-toggle:hover {
+  color: rgba(255,255,255,0.8);
+}
+
 .sidebar-item {
   display: flex;
   align-items: center;
