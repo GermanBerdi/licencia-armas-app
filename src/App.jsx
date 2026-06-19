@@ -334,7 +334,7 @@ export default function App() {
   function iniciarSimulacro(temasDisponibles) {
     const seleccion = construirSimulacro(temasDisponibles)
     setPreguntas(seleccion)
-    setVista({ tipo: 'examen' })
+    setVista('examen')
   }
 
   function volver() {
