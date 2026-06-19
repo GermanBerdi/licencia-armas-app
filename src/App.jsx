@@ -5,11 +5,12 @@ import tema3 from './data/tema3.json'
 import tema4 from './data/tema4.json'
 import tema5 from './data/tema5.json'
 import tema6 from './data/tema6.json'
+import tema7 from './data/tema7.json'
 import temarioEstudio from './data/temarioEstudio.json'
 import temarioCompleto from './data/temarioCompleto.json'
 import './App.css'
 
-const TEMAS = [tema1, tema2, tema3, tema4, tema5, tema6]
+const TEMAS = [tema1, tema2, tema3, tema4, tema5, tema6, tema7]
 
 const TODOS_LOS_TEMAS = [
   { id: 1, nombre: 'Mecánica y seguridad de las armas', cargado: true, podcast: '/audios/tema1.m4a' },
@@ -18,7 +19,7 @@ const TODOS_LOS_TEMAS = [
   { id: 4, nombre: 'Documentación y Licencias', cargado: true, podcast: '/audios/tema4.m4a' },
   { id: 5, nombre: 'Régimen Sancionador', cargado: true, podcast: '/audios/tema5.m4a' },
   { id: 6, nombre: 'Reparación y Depósito', cargado: true, podcast: '/audios/tema6.m4a' },
-  { id: 7, nombre: 'Armas de Colección e Historia', cargado: false, podcast: '/audios/tema7.m4a' },
+  { id: 7, nombre: 'Armas de Colección e Historia', cargado: true, podcast: '/audios/tema7.m4a' },
 ]
 
 const DISTRIBUCION_EXAMEN = { 1: 4, 2: 3, 3: 3, 4: 4, 5: 3, 6: 3 }
@@ -254,6 +255,34 @@ function ModoEstudio({ contenido, titulo = 'Modo Estudio', desplegable = false }
   )
 }
 
+function CuestionarioEstudio({ preguntas, onFinish }) {
+  return (
+    <div className="quiz">
+      {preguntas.map((pregunta, i) => (
+        <div key={pregunta.id} className="pregunta-bloque">
+          <div className="pregunta-contenido">
+            <p className="pregunta-num">Pregunta {i + 1}</p>
+            <p className="pregunta-texto">{pregunta.texto}</p>
+            <ul className="opciones">
+              {pregunta.opciones.map(opcion => (
+                <li key={opcion.id}>
+                  <div className={`opcion${opcion.correcta ? ' correcta' : ''}`}>
+                    <span className="opcion-letra">{opcion.id.toUpperCase()}</span>
+                    {opcion.texto}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      ))}
+      <div style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <button className="btn-reintentar" onClick={onFinish}>Volver al menú</button>
+      </div>
+    </div>
+  )
+}
+
 function InfoExamen({ temasDisponibles, onStart }) {
   const totalDisponibles = temasDisponibles.reduce((acc, t) => acc + t.preguntas.length, 0)
   const puedeIniciar = totalDisponibles >= 20
@@ -295,6 +324,11 @@ export default function App() {
     const seleccion = shuffle(temaData.preguntas).slice(0, 20).map(p => ({ ...p, temaId: temaData.id }))
     setPreguntas(seleccion)
     setVista({ tipo: 'tema', tema: temaData })
+  }
+
+  function iniciarEstudio(temaData) {
+    setPreguntas(temaData.preguntas.map(p => ({ ...p, temaId: temaData.id })))
+    setVista({ tipo: 'estudiar', tema: temaData })
   }
 
   function iniciarSimulacro(temasDisponibles) {
@@ -359,6 +393,24 @@ export default function App() {
           )
         })}
 
+        <p className="sidebar-seccion">Estudiar cuestionarios</p>
+        {TODOS_LOS_TEMAS.map(t => {
+          const datos = temasDisponibles.find(td => td.id === t.id)
+          const activo = vista?.tipo === 'estudiar' && vista?.tema?.id === t.id
+          return (
+            <button
+              key={t.id}
+              className={`sidebar-item ${activo ? 'activo' : ''} ${!t.cargado ? 'deshabilitado' : ''}`}
+              onClick={() => t.cargado ? iniciarEstudio({ ...datos }) : null}
+              title={!t.cargado ? 'Próximamente' : ''}
+            >
+              <span className="sidebar-num">T{t.id}</span>
+              <span className="sidebar-nombre">{t.nombre}</span>
+              {!t.cargado && <span className="sidebar-badge">Pronto</span>}
+            </button>
+          )
+        })}
+
         <div className="sidebar-separador" />
 
         <button
@@ -392,6 +444,11 @@ export default function App() {
               </div>
             ))}
           </div>
+        ) : vista?.tipo === 'estudiar' && preguntas ? (
+          <>
+            <h1 className="contenido-titulo">Tema {vista.tema.id} — {vista.tema.nombre}</h1>
+            <CuestionarioEstudio preguntas={preguntas} onFinish={volver} />
+          </>
         ) : vista?.tipo === 'tema' && preguntas ? (
           <>
             <h1 className="contenido-titulo">Tema {vista.tema.id} — {vista.tema.nombre}</h1>

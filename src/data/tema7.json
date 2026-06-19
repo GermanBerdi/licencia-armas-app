@@ -1,0 +1,205 @@
+{
+  "id": 7,
+  "nombre": "Armas de Coleccion e Historia",
+  "descripcion": "Armas de coleccion, definiciones del articulo 2 del Reglamento de Armas, historia de las armas de fuego, calibres, municion y polvora.",
+  "preguntas": [
+    {
+      "id": 7001,
+      "texto": "En la Categoria 6a.2 del articulo 3, del Reglamento de Armas, se encuentran las armas de fuego cuyo modelo o año de fabricacion sean anteriores al 1 de enero de 1899, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas?",
+      "opciones": [
+        { "id": "a", "texto": "Cierto.", "correcta": false },
+        { "id": "b", "texto": "Falso.", "correcta": true },
+        { "id": "c", "texto": "Es indiferente.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7002,
+      "texto": "Segun se dispone en el articulo 107.c), del Reglamento de Armas, para su uso, las armas largas y cortas de avancarga y las demas de la categoria 6.2 precisaran la posesion de un certificado de un banco oficial de pruebas para cada arma y...",
+      "opciones": [
+        { "id": "a", "texto": "La correspondiente Licencia de armas.", "correcta": false },
+        { "id": "b", "texto": "La Licencia especial de armas.", "correcta": false },
+        { "id": "c", "texto": "La obtencion de una autorizacion especial.", "correcta": true }
+      ]
+    },
+    {
+      "id": 7003,
+      "texto": "Que se entiende por arma antigua?",
+      "opciones": [
+        { "id": "a", "texto": "Arma de fuego que en su ornamentacion presenta una peculiaridad distinta a las demas de su clase, en razon de los materiales nobles empleados o de diseño, que le confiere un especial valor.", "correcta": false },
+        { "id": "b", "texto": "Arma de fuego portatil que utiliza municion de calibre flobert.", "correcta": false },
+        { "id": "c", "texto": "Arma de fuego cuyo modelo o cuyo año de fabricacion es anterior al 1 de enero de 1890.", "correcta": true }
+      ]
+    },
+    {
+      "id": 7004,
+      "texto": "Si no se va a hacer uso de una reproduccion de un arma de fuego, unicamente se quiere poseer como coleccionista, como se documentara?",
+      "opciones": [
+        { "id": "a", "texto": "Mediante una guia especial de coleccionista.", "correcta": false },
+        { "id": "b", "texto": "Mediante la inscripcion en un libro-registro de coleccionista.", "correcta": true },
+        { "id": "c", "texto": "Con un certificado del Banco Oficial de Pruebas.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7005,
+      "texto": "La antigüedad de las armas de fuego cuyo modelo o año de fabricacion sean anteriores al 1 de enero de 1890, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas, sera fijada por la Direccion General de la Guardia Civil?",
+      "opciones": [
+        { "id": "a", "texto": "Cierto.", "correcta": false },
+        { "id": "b", "texto": "Falso.", "correcta": true },
+        { "id": "c", "texto": "Es indiferente.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7006,
+      "texto": "Como se efectuara la custodia de las reproducciones de las armas de fuego cortas en los domicilios particulares?",
+      "opciones": [
+        { "id": "a", "texto": "Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase III, de la norma UNE EN 1143-1.", "correcta": true },
+        { "id": "b", "texto": "Guardadas completas en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1.", "correcta": false },
+        { "id": "c", "texto": "Guardadas completas, o sus cierres o piezas fundamentales, en cajas fuertes, armarios o armeros, con al menos un grado de seguridad clase I, de la norma UNE EN 1143-1.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7007,
+      "texto": "Las armas de fuego antiguas, sus reproducciones y asimiladas, susceptibles de hacer fuego, en que lugares se podran utilizar?",
+      "opciones": [
+        { "id": "a", "texto": "Excepcionalmente, se podran utilizar en campos, galerias o poligonos de tiro controlados para practicas, previa obtencion de una autorizacion especial.", "correcta": true },
+        { "id": "b", "texto": "Unicamente en poligonos de tiro de concurso.", "correcta": false },
+        { "id": "c", "texto": "En todo caso, se podran utilizar en la practica de la caza mayor.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7008,
+      "texto": "Que se entiende por reproduccion de un arma de fuego?",
+      "opciones": [
+        { "id": "a", "texto": "Un arma que es copia de otra, reuniendo caracteristicas de aptitudes.", "correcta": false },
+        { "id": "b", "texto": "Un arma que es copia de otra original, reuniendo todas sus caracteristicas, aptitudes y posibilidades de uso.", "correcta": true },
+        { "id": "c", "texto": "Un arma que es copia de otra original, y no reune sus caracteristicas, aptitudes y posibilidades de uso.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7009,
+      "texto": "Que es una replica de un arma de fuego?",
+      "opciones": [
+        { "id": "a", "texto": "Objeto que por su apariencia fisica o caracteristicas externas puede inducir a confusion sobre su autentica naturaleza.", "correcta": true },
+        { "id": "b", "texto": "Es un arma que es similar a otra original, y que no reune las mismas aptitudes de un arma original.", "correcta": false },
+        { "id": "c", "texto": "Es un arma igual a otra original, con todas sus caracteristicas, pero que no tiene las mismas aptitudes y posibilidades de uso.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7010,
+      "texto": "Que tipo de municion deberan utilizar las reproducciones de armas de fuego antiguas?",
+      "opciones": [
+        { "id": "a", "texto": "Municion metalica utilizada para las armas de fabricacion actual y del mismo calibre.", "correcta": false },
+        { "id": "b", "texto": "Municion con polvora negra, y del calibre de las mismas.", "correcta": true },
+        { "id": "c", "texto": "Municion con polvora sin humo.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7011,
+      "texto": "Se podra adquirir municion para el uso de las reproducciones de armas de fuego cortas antiguas?",
+      "opciones": [
+        { "id": "a", "texto": "Solo podran adquirirse 100 cartuchos anuales por arma corta.", "correcta": true },
+        { "id": "b", "texto": "Podran adquirirse 150 cartuchos anuales por arma corta.", "correcta": false },
+        { "id": "c", "texto": "Solo podran adquirirse 200 cartuchos anuales por arma corta.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7012,
+      "texto": "Se podra tener en deposito municion para el uso de las reproducciones de armas de fuego largas antiguas?",
+      "opciones": [
+        { "id": "a", "texto": "Podra tener en deposito 250 cartuchos.", "correcta": false },
+        { "id": "b", "texto": "Podra tener en deposito hasta 1000 cartuchos.", "correcta": false },
+        { "id": "c", "texto": "En ningun caso podra tener en deposito un numero superior a 200 cartuchos.", "correcta": true }
+      ]
+    },
+    {
+      "id": 7013,
+      "texto": "El cartucho de polvora ya se empleaba a mediados del siglo XVI, no obstante, respecto al cartucho de polvora de percusion central, cuando comenzo su uso?",
+      "opciones": [
+        { "id": "a", "texto": "1550 a 1840.", "correcta": false },
+        { "id": "b", "texto": "1868 en adelante.", "correcta": true },
+        { "id": "c", "texto": "1845 a 1925.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7014,
+      "texto": "Cual fue el primer ejercito del mundo dotado con revolveres?",
+      "opciones": [
+        { "id": "a", "texto": "El Ejercito Español.", "correcta": false },
+        { "id": "b", "texto": "El Ejercito Norteamericano.", "correcta": true },
+        { "id": "c", "texto": "El Ejercito Frances.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7015,
+      "texto": "Cual fue la primera arma de repeticion con cartucho metalico declarada reglamentaria en el Ejercito Español?",
+      "opciones": [
+        { "id": "a", "texto": "El revolver sistema Lafaucheaux.", "correcta": true },
+        { "id": "b", "texto": "El revolver Colt.", "correcta": false },
+        { "id": "c", "texto": "El revolver Remington.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7016,
+      "texto": "En relacion a las armas retiradas por infraccion a la Ley de Caza, si la Autoridad competente acordara la devolucion de las mismas...",
+      "opciones": [
+        { "id": "a", "texto": "Las armas estaran depositadas en la Intervencion a disposicion de los particulares por un plazo maximo de un mes.", "correcta": false },
+        { "id": "b", "texto": "A partir de un mes de la notificacion por parte de la Autoridad competente, si no fuesen retiradas por su propietario seran destruidas.", "correcta": false },
+        { "id": "c", "texto": "Ambas son correctas.", "correcta": true }
+      ]
+    },
+    {
+      "id": 7017,
+      "texto": "Que entendemos por municion de bala explosiva?",
+      "opciones": [
+        { "id": "a", "texto": "Municion de uso civil con balas que contienen una carga que explota por impacto.", "correcta": false },
+        { "id": "b", "texto": "Municion de uso militar con balas que contienen una carga que explota por impacto.", "correcta": true },
+        { "id": "c", "texto": "Ninguna es correcta.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7018,
+      "texto": "Cual de las siguientes afirmaciones es cierta?",
+      "opciones": [
+        { "id": "a", "texto": "La municion es un cartucho incluyendo la vaina.", "correcta": true },
+        { "id": "b", "texto": "La vaina no esta incluida en la parte de un cartucho.", "correcta": false },
+        { "id": "c", "texto": "Se considera municion a los cartuchos a partir de 9 mm.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7019,
+      "texto": "Consideramos que un arma ha sido inutilizada, cuando...",
+      "opciones": [
+        { "id": "a", "texto": "Al menos un componente esencial ha sido inutilizado.", "correcta": false },
+        { "id": "b", "texto": "Al menos dos componentes esenciales hayan sido inutilizados.", "correcta": false },
+        { "id": "c", "texto": "Cuando todos sus componentes esenciales hayan sido inutilizados.", "correcta": true }
+      ]
+    },
+    {
+      "id": 7020,
+      "texto": "Puede un arma de un solo tiro llevar adaptado un cargador?",
+      "opciones": [
+        { "id": "a", "texto": "No, nunca.", "correcta": true },
+        { "id": "b", "texto": "Si, si solo se hace uso de tiro a tiro.", "correcta": false },
+        { "id": "c", "texto": "Dependera del momento.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7021,
+      "texto": "Podemos considerar como coleccionista a una persona que solo reune componentes esenciales de las armas?",
+      "opciones": [
+        { "id": "a", "texto": "No, al menos debe de coleccionar un arma completa.", "correcta": false },
+        { "id": "b", "texto": "Si, es correcto.", "correcta": true },
+        { "id": "c", "texto": "Solo en el caso de que tenga especial vocacion.", "correcta": false }
+      ]
+    },
+    {
+      "id": 7022,
+      "texto": "El hecho de transformar un arma de guerra en otra civil, lo denominaremos...",
+      "opciones": [
+        { "id": "a", "texto": "Actividad lucrativa.", "correcta": false },
+        { "id": "b", "texto": "No esta permitido.", "correcta": false },
+        { "id": "c", "texto": "Desmilitarizacion.", "correcta": true }
+      ]
+    }
+  ]
+}
