@@ -311,7 +311,7 @@
     },
     {
       "id": 3035,
-      "texto": "Un canion estriado adaptable a escopeta de caza con recamara metalica pasa revista cada:",
+      "texto": "Un cañón estriado adaptable a escopeta de caza con recamara metalica pasa revista cada:",
       "opciones": [
         { "id": "a", "texto": "Cinco anos.", "correcta": false },
         { "id": "b", "texto": "Tres anos.", "correcta": true },

@@ -34,9 +34,9 @@
       "id": 2004,
       "texto": "Segun el Reglamento de Armas, un arma de fuego corta es:",
       "opciones": [
-        { "id": "a", "texto": "Aquella cuyo canion no exceda de 20 cm o cuya longitud total no exceda de 60 cm.", "correcta": false },
-        { "id": "b", "texto": "Aquella cuyo canion no exceda de 30 cm o cuya longitud total no exceda de 60 cm.", "correcta": true },
-        { "id": "c", "texto": "Aquella cuyo canion no exceda de 30 cm o cuya longitud total no exceda de 80 cm.", "correcta": false }
+        { "id": "a", "texto": "Aquella cuyo cañón no exceda de 20 cm o cuya longitud total no exceda de 60 cm.", "correcta": false },
+        { "id": "b", "texto": "Aquella cuyo cañón no exceda de 30 cm o cuya longitud total no exceda de 60 cm.", "correcta": true },
+        { "id": "c", "texto": "Aquella cuyo cañón no exceda de 30 cm o cuya longitud total no exceda de 80 cm.", "correcta": false }
       ]
     },
     {
@@ -45,12 +45,12 @@
       "opciones": [
         { "id": "a", "texto": "Cualquier arma de fuego que no sea corta.", "correcta": true },
         { "id": "b", "texto": "El arma de mas de 30 cm de longitud total.", "correcta": false },
-        { "id": "c", "texto": "El arma cuyo canion no excede de 30 cm.", "correcta": false }
+        { "id": "c", "texto": "El arma cuyo cañón no excede de 30 cm.", "correcta": false }
       ]
     },
     {
       "id": 2006,
-      "texto": "Un arma cuyo canion tenga 28 cm y una longitud total de 64 cm seria:",
+      "texto": "Un arma cuyo cañón tenga 28 cm y una longitud total de 64 cm seria:",
       "opciones": [
         { "id": "a", "texto": "Arma de fuego corta.", "correcta": false },
         { "id": "b", "texto": "Arma de fuego larga.", "correcta": true },
@@ -59,7 +59,7 @@
     },
     {
       "id": 2007,
-      "texto": "Un revolver con canion de 35 cm, calibre 32 y longitud total de 40 cm tendria la consideracion de:",
+      "texto": "Un revolver con cañón de 35 cm, calibre 32 y longitud total de 40 cm tendria la consideracion de:",
       "opciones": [
         { "id": "a", "texto": "Arma de fuego corta.", "correcta": true },
         { "id": "b", "texto": "Arma de fuego larga.", "correcta": false },
@@ -68,7 +68,7 @@
     },
     {
       "id": 2008,
-      "texto": "Una escopeta con rayas en el canion para facilitar el plomeo, aunque este marcada con punzon de escopeta, es un arma larga rayada para caza mayor?",
+      "texto": "Una escopeta con rayas en el cañón para facilitar el plomeo, aunque este marcada con punzon de escopeta, es un arma larga rayada para caza mayor?",
       "opciones": [
         { "id": "a", "texto": "Depende de la licencia que la ampare.", "correcta": false },
         { "id": "b", "texto": "Si, por estar incluida en la categoria 2a.2.", "correcta": false },
@@ -95,7 +95,7 @@
     },
     {
       "id": 2011,
-      "texto": "Un revolver de 20 cm de canion y calibre 38 pertenece a:",
+      "texto": "Un revolver de 20 cm de cañón y calibre 38 pertenece a:",
       "opciones": [
         { "id": "a", "texto": "No existe ese tipo de arma.", "correcta": false },
         { "id": "b", "texto": "La 1a categoria.", "correcta": true },
@@ -295,7 +295,7 @@
       "id": 2033,
       "texto": "Cual de estas se considera arma prohibida?",
       "opciones": [
-        { "id": "a", "texto": "Armas de fuego largas con caniones recortados.", "correcta": true },
+        { "id": "a", "texto": "Armas de fuego largas con cañones recortados.", "correcta": true },
         { "id": "b", "texto": "Navajas no automaticas de hoja menor de 11 cm.", "correcta": false },
         { "id": "c", "texto": "Arcos deportivos.", "correcta": false }
       ]
