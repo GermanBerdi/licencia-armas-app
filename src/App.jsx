@@ -65,7 +65,7 @@ function abrirExplicacionChatGPT(pregunta, seleccionadaId) {
   window.open(`https://chatgpt.com/?q=${encodeURIComponent(prompt)}`, '_blank')
 }
 
-function Quiz({ preguntas, onFinish, temaId, passThreshold = 12 }) {
+function Quiz({ preguntas, onFinish, onRetry, temaId, passThreshold = 12 }) {
   const [respuestas, setRespuestas] = useState({})
   const [corregido, setCorregido] = useState(false)
   const [advertencia, setAdvertencia] = useState(false)
@@ -87,7 +87,6 @@ function Quiz({ preguntas, onFinish, temaId, passThreshold = 12 }) {
   function confirmarCorrecion() {
     setAdvertencia(false)
     setCorregido(true)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   function limpiarFormulario() {
@@ -176,7 +175,8 @@ function Quiz({ preguntas, onFinish, temaId, passThreshold = 12 }) {
             {aciertos >= passThreshold ? 'APTO' : 'NO APTO'}
           </span>
           <span className="resumen-score">{aciertos} / {preguntas.length} correctas</span>
-          <button className="btn-reintentar" onClick={() => onFinish()}>Volver al menú</button>
+          {onRetry && <button className="btn-reintentar" onClick={onRetry}>Nuevo simulacro</button>}
+          <button className="btn-reintentar btn-volver" onClick={() => onFinish()}>Volver al menú</button>
         </div>
       )}
 
@@ -435,7 +435,7 @@ export default function App() {
         ) : vista === 'examen' && preguntas ? (
           <>
             <h1 className="contenido-titulo">Simulacro de Examen</h1>
-            <Quiz preguntas={preguntas} onFinish={volver} temaId={null} passThreshold={16} />
+            <Quiz preguntas={preguntas} onFinish={volver} onRetry={() => iniciarSimulacro(temasDisponibles)} temaId={null} passThreshold={16} />
           </>
         ) : vista === 'examen' ? (
           <InfoExamen temasDisponibles={temasDisponibles} onStart={() => iniciarSimulacro(temasDisponibles)} />

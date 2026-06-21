@@ -305,6 +305,13 @@ body {
 
 .btn-reintentar:hover { background: #0f2647; }
 
+.btn-reintentar.btn-volver {
+  background: transparent;
+  color: #1a3a6c;
+  border: 1px solid #1a3a6c;
+}
+.btn-reintentar.btn-volver:hover { background: #f0f4fa; }
+
 /* Bloque de pregunta */
 .pregunta-bloque {
   background: white;
