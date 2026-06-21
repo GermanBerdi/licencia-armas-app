@@ -124,18 +124,18 @@
       "id": 3014,
       "texto": "Las armas de 1a categoria y las de concurso pasan revista cada:",
       "opciones": [
-        { "id": "a", "texto": "Tres anos.", "correcta": true },
-        { "id": "b", "texto": "Cinco anos.", "correcta": false },
-        { "id": "c", "texto": "Un ano.", "correcta": false }
+        { "id": "a", "texto": "Tres años.", "correcta": true },
+        { "id": "b", "texto": "Cinco años.", "correcta": false },
+        { "id": "c", "texto": "Un año.", "correcta": false }
       ]
     },
     {
       "id": 3015,
       "texto": "Las demas armas que precisen guia de pertenencia pasan revista cada:",
       "opciones": [
-        { "id": "a", "texto": "Cinco anos.", "correcta": true },
-        { "id": "b", "texto": "Tres anos.", "correcta": false },
-        { "id": "c", "texto": "Dos anos.", "correcta": false }
+        { "id": "a", "texto": "Cinco años.", "correcta": true },
+        { "id": "b", "texto": "Tres años.", "correcta": false },
+        { "id": "c", "texto": "Dos años.", "correcta": false }
       ]
     },
     {
@@ -169,9 +169,9 @@
       "id": 3019,
       "texto": "Una escopeta de caza, en general, pasa revista cada:",
       "opciones": [
-        { "id": "a", "texto": "Cinco anos.", "correcta": true },
-        { "id": "b", "texto": "Tres anos.", "correcta": false },
-        { "id": "c", "texto": "Un ano.", "correcta": false }
+        { "id": "a", "texto": "Cinco años.", "correcta": true },
+        { "id": "b", "texto": "Tres años.", "correcta": false },
+        { "id": "c", "texto": "Un año.", "correcta": false }
       ]
     },
     {
@@ -188,8 +188,8 @@
       "texto": "Una carabina de aire comprimido de 4a categoria debe pasar revista?",
       "opciones": [
         { "id": "a", "texto": "No tiene que pasar revista.", "correcta": true },
-        { "id": "b", "texto": "Cada cinco anos.", "correcta": false },
-        { "id": "c", "texto": "Cada tres anos.", "correcta": false }
+        { "id": "b", "texto": "Cada cinco años.", "correcta": false },
+        { "id": "c", "texto": "Cada tres años.", "correcta": false }
       ]
     },
     {
@@ -313,8 +313,8 @@
       "id": 3035,
       "texto": "Un cañón estriado adaptable a escopeta de caza con recamara metalica pasa revista cada:",
       "opciones": [
-        { "id": "a", "texto": "Cinco anos.", "correcta": false },
-        { "id": "b", "texto": "Tres anos.", "correcta": true },
+        { "id": "a", "texto": "Cinco años.", "correcta": false },
+        { "id": "b", "texto": "Tres años.", "correcta": true },
         { "id": "c", "texto": "No pasa revista.", "correcta": false }
       ]
     },
@@ -322,8 +322,8 @@
       "id": 3036,
       "texto": "Una carabina de repeticion accionada por gas comprimido no asimilada a escopeta pasa revista cada:",
       "opciones": [
-        { "id": "a", "texto": "Tres anos.", "correcta": false },
-        { "id": "b", "texto": "Cinco anos.", "correcta": false },
+        { "id": "a", "texto": "Tres años.", "correcta": false },
+        { "id": "b", "texto": "Cinco años.", "correcta": false },
         { "id": "c", "texto": "No necesita pasar revista.", "correcta": true }
       ]
     },

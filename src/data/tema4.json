@@ -5,7 +5,7 @@
   "preguntas": [
     {
       "id": 4001,
-      "texto": "Para poseer y usar armas de fuego en territorio espanol se requiere:",
+      "texto": "Para poseer y usar armas de fuego en territorio español se requiere:",
       "opciones": [
         { "id": "a", "texto": "Autorizacion o licencia correspondiente expedida por organo competente.", "correcta": true },
         { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
@@ -79,14 +79,14 @@
       "id": 4009,
       "texto": "Como norma general, la edad minima para solicitar nueva licencia de armas es:",
       "opciones": [
-        { "id": "a", "texto": "18 anos.", "correcta": true },
-        { "id": "b", "texto": "16 anos.", "correcta": false },
-        { "id": "c", "texto": "14 anos.", "correcta": false }
+        { "id": "a", "texto": "18 años.", "correcta": true },
+        { "id": "b", "texto": "16 años.", "correcta": false },
+        { "id": "c", "texto": "14 años.", "correcta": false }
       ]
     },
     {
       "id": 4010,
-      "texto": "Los menores de 16 a 18 anos pueden usar armas de caza mayor si:",
+      "texto": "Los menores de 16 a 18 años pueden usar armas de caza mayor si:",
       "opciones": [
         { "id": "a", "texto": "Tienen autorizacion especial de menores y van acompanados por mayor con licencia D/E/F.", "correcta": true },
         { "id": "b", "texto": "Tienen licencia D propia.", "correcta": false },
@@ -95,7 +95,7 @@
     },
     {
       "id": 4011,
-      "texto": "Los menores de 14 a 18 anos pueden usar armas de categorias 3a.2 y 3a.3 si:",
+      "texto": "Los menores de 14 a 18 años pueden usar armas de categorias 3a.2 y 3a.3 si:",
       "opciones": [
         { "id": "a", "texto": "Obtienen autorizacion especial de uso para menores y cumplen condiciones de acompanamiento.", "correcta": true },
         { "id": "b", "texto": "Tienen licencia B.", "correcta": false },
@@ -107,8 +107,8 @@
       "texto": "Las autorizaciones especiales de uso para menores tienen validez:",
       "opciones": [
         { "id": "a", "texto": "Hasta la mayoria de edad del titular.", "correcta": true },
-        { "id": "b", "texto": "Tres anos.", "correcta": false },
-        { "id": "c", "texto": "Un ano renovable.", "correcta": false }
+        { "id": "b", "texto": "Tres años.", "correcta": false },
+        { "id": "c", "texto": "Un año renovable.", "correcta": false }
       ]
     },
     {
@@ -214,9 +214,9 @@
       "id": 4024,
       "texto": "La Tarjeta Europea de Armas de Fuego tiene una vigencia maxima de:",
       "opciones": [
-        { "id": "a", "texto": "Cinco anos.", "correcta": true },
-        { "id": "b", "texto": "Tres anos.", "correcta": false },
-        { "id": "c", "texto": "Un ano.", "correcta": false }
+        { "id": "a", "texto": "Cinco años.", "correcta": true },
+        { "id": "b", "texto": "Tres años.", "correcta": false },
+        { "id": "c", "texto": "Un año.", "correcta": false }
       ]
     },
     {
@@ -279,12 +279,12 @@
       "opciones": [
         { "id": "a", "texto": "Mantener los requisitos exigidos en el Reglamento de Armas.", "correcta": true },
         { "id": "b", "texto": "No cambiar de domicilio.", "correcta": false },
-        { "id": "c", "texto": "No superar 65 anos.", "correcta": false }
+        { "id": "c", "texto": "No superar 65 años.", "correcta": false }
       ]
     },
     {
       "id": 4032,
-      "texto": "La Administracion puede comprobar el mantenimiento de requisitos de licencia:",
+      "texto": "La Administración puede comprobar el mantenimiento de requisitos de licencia:",
       "opciones": [
         { "id": "a", "texto": "En cualquier momento.", "correcta": true },
         { "id": "b", "texto": "Solo a peticion del titular.", "correcta": false },
@@ -320,7 +320,7 @@
     },
     {
       "id": 4036,
-      "texto": "En mayores de 60 anos, para mantener vigencia de licencia, suele requerirse:",
+      "texto": "En mayores de 60 años, para mantener vigencia de licencia, suele requerirse:",
       "opciones": [
         { "id": "a", "texto": "Visado periodico con informe favorable psicofisico.", "correcta": true },
         { "id": "b", "texto": "Ninguna formalidad adicional.", "correcta": false },
@@ -329,10 +329,10 @@
     },
     {
       "id": 4037,
-      "texto": "Las licencias expedidas a mayores de 70 anos requieren, con caracter general:",
+      "texto": "Las licencias expedidas a mayores de 70 años requieren, con caracter general:",
       "opciones": [
         { "id": "a", "texto": "Visado anual conforme al reglamento.", "correcta": true },
-        { "id": "b", "texto": "Visado cada 5 anos.", "correcta": false },
+        { "id": "b", "texto": "Visado cada 5 años.", "correcta": false },
         { "id": "c", "texto": "No requieren visado.", "correcta": false }
       ]
     },

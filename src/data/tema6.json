@@ -152,7 +152,7 @@
       "texto": "En caso de fallecimiento del titular de armas, herederos o albaceas deben depositarlas:",
       "opciones": [
         { "id": "a", "texto": "Tan pronto conozcan la obligacion y, en todo caso, dentro de seis meses.", "correcta": true },
-        { "id": "b", "texto": "Al ano exacto.", "correcta": false },
+        { "id": "b", "texto": "Al año exacto.", "correcta": false },
         { "id": "c", "texto": "No existe plazo.", "correcta": false }
       ]
     },
@@ -160,9 +160,9 @@
       "id": 6018,
       "texto": "Durante cuanto tiempo quedan a disposicion de herederos las armas depositadas por fallecimiento?",
       "opciones": [
-        { "id": "a", "texto": "Un ano.", "correcta": true },
+        { "id": "a", "texto": "Un año.", "correcta": true },
         { "id": "b", "texto": "Seis meses.", "correcta": false },
-        { "id": "c", "texto": "Dos anos.", "correcta": false }
+        { "id": "c", "texto": "Dos años.", "correcta": false }
       ]
     },
     {
@@ -241,7 +241,7 @@
       "id": 6027,
       "texto": "En importaciones, armas no retiradas tras despacho aduanero permanecen depositadas maximo:",
       "opciones": [
-        { "id": "a", "texto": "Un ano.", "correcta": true },
+        { "id": "a", "texto": "Un año.", "correcta": true },
         { "id": "b", "texto": "Seis meses.", "correcta": false },
         { "id": "c", "texto": "Tres meses.", "correcta": false }
       ]

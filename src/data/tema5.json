@@ -35,53 +35,53 @@
       "texto": "Las infracciones administrativas leves prescriben a:",
       "opciones": [
         { "id": "a", "texto": "3 meses.", "correcta": true },
-        { "id": "b", "texto": "1 ano.", "correcta": false },
-        { "id": "c", "texto": "2 anos.", "correcta": false }
+        { "id": "b", "texto": "1 año.", "correcta": false },
+        { "id": "c", "texto": "2 años.", "correcta": false }
       ]
     },
     {
       "id": 5005,
       "texto": "Las infracciones administrativas graves prescriben a:",
       "opciones": [
-        { "id": "a", "texto": "1 ano.", "correcta": true },
+        { "id": "a", "texto": "1 año.", "correcta": true },
         { "id": "b", "texto": "3 meses.", "correcta": false },
-        { "id": "c", "texto": "2 anos.", "correcta": false }
+        { "id": "c", "texto": "2 años.", "correcta": false }
       ]
     },
     {
       "id": 5006,
       "texto": "Las infracciones administrativas muy graves prescriben a:",
       "opciones": [
-        { "id": "a", "texto": "2 anos.", "correcta": true },
-        { "id": "b", "texto": "1 ano.", "correcta": false },
-        { "id": "c", "texto": "4 anos.", "correcta": false }
+        { "id": "a", "texto": "2 años.", "correcta": true },
+        { "id": "b", "texto": "1 año.", "correcta": false },
+        { "id": "c", "texto": "4 años.", "correcta": false }
       ]
     },
     {
       "id": 5007,
       "texto": "Las sanciones leves prescriben a:",
       "opciones": [
-        { "id": "a", "texto": "1 ano.", "correcta": true },
-        { "id": "b", "texto": "2 anos.", "correcta": false },
-        { "id": "c", "texto": "4 anos.", "correcta": false }
+        { "id": "a", "texto": "1 año.", "correcta": true },
+        { "id": "b", "texto": "2 años.", "correcta": false },
+        { "id": "c", "texto": "4 años.", "correcta": false }
       ]
     },
     {
       "id": 5008,
       "texto": "Las sanciones graves prescriben a:",
       "opciones": [
-        { "id": "a", "texto": "2 anos.", "correcta": true },
-        { "id": "b", "texto": "1 ano.", "correcta": false },
-        { "id": "c", "texto": "4 anos.", "correcta": false }
+        { "id": "a", "texto": "2 años.", "correcta": true },
+        { "id": "b", "texto": "1 año.", "correcta": false },
+        { "id": "c", "texto": "4 años.", "correcta": false }
       ]
     },
     {
       "id": 5009,
       "texto": "Las sanciones muy graves prescriben a:",
       "opciones": [
-        { "id": "a", "texto": "4 anos.", "correcta": true },
-        { "id": "b", "texto": "2 anos.", "correcta": false },
-        { "id": "c", "texto": "1 ano.", "correcta": false }
+        { "id": "a", "texto": "4 años.", "correcta": true },
+        { "id": "b", "texto": "2 años.", "correcta": false },
+        { "id": "c", "texto": "1 año.", "correcta": false }
       ]
     },
     {
@@ -232,7 +232,7 @@
       "id": 5026,
       "texto": "La retirada de armas implica:",
       "opciones": [
-        { "id": "a", "texto": "Desposesion y prohibicion de adquirir y poseer otras durante plazo determinado (max 2 anos).", "correcta": true },
+        { "id": "a", "texto": "Desposesion y prohibicion de adquirir y poseer otras durante plazo determinado (max 2 años).", "correcta": true },
         { "id": "b", "texto": "Simple advertencia.", "correcta": false },
         { "id": "c", "texto": "Suspension de caza sin deposito.", "correcta": false }
       ]
@@ -241,7 +241,7 @@
       "id": 5027,
       "texto": "La retirada de licencia o autorizacion especial supone:",
       "opciones": [
-        { "id": "a", "texto": "Revocacion e impedimento de renovacion por plazo maximo de 2 anos, con deposito obligatorio.", "correcta": true },
+        { "id": "a", "texto": "Revocacion e impedimento de renovacion por plazo maximo de 2 años, con deposito obligatorio.", "correcta": true },
         { "id": "b", "texto": "Solo inmovilizacion de un arma.", "correcta": false },
         { "id": "c", "texto": "Ningun efecto sobre renovacion.", "correcta": false }
       ]
