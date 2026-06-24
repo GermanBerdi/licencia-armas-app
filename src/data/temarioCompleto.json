@@ -7,13 +7,13 @@
       "id": "marco-general",
       "titulo": "Marco general de la prueba",
       "puntos": [
-        "La prueba para licencias D, E y autorizacion de menores combina parte teorica y practica.",
+        "La prueba para licencias D, E y autorización de menores combina parte teorica y practica.",
         "La teorica suele ser un test de 20 preguntas con tiempo limitado.",
         "El aprobado habitual es 16/20.",
         "La seleccion de preguntas se reparte entre seis temas.",
         "Cada convocatoria la organiza la Guardia Civil segun calendario provincial.",
         "Hay exenciones en supuestos concretos de titulares de determinadas licencias previas.",
-        "El objetivo del estudio no es solo memorizar, sino entender seguridad, documentacion y responsabilidad.",
+        "El objetivo del estudio no es solo memorizar, sino entender seguridad, documentación y responsabilidad.",
         "La normativa base es el Reglamento de Armas y resoluciones de desarrollo."
       ]
     },
@@ -66,18 +66,18 @@
         "Hay prohibiciones expresas sobre determinadas configuraciones semiautomaticas y accesorios.",
         "Silenciadores para armas de fuego estan prohibidos para particulares.",
         "Tambien se prohiben municiones concretas (por ejemplo, perforantes, explosivas o incendiarias) fuera de supuestos legales.",
-        "Las armas de fuego largas con canones recortados son un supuesto tipico de prohibicion.",
+        "Las armas de fuego largas con canones recortados son un supuesto tipico de prohibición.",
         "Las armas automaticas se consideran de guerra y su tenencia por particulares esta prohibida.",
-        "El concepto de arma de guerra depende de calibre y clasificacion del Ministerio de Defensa.",
+        "El concepto de arma de guerra depende de calibre y clasificación del Ministerio de Defensa.",
         "Existen supuestos excepcionales para ciertos calibres de uso cinegetico bajo condiciones especificas.",
         "En test suele aparecer la diferencia entre arma reglamentada, prohibida y de guerra."
       ]
     },
     {
-      "id": "tema3-circulacion",
-      "titulo": "Tema 3. Circulacion y envio de armas",
+      "id": "tema3-circulación",
+      "titulo": "Tema 3. Circulación y envio de armas",
       "puntos": [
-        "La guia de circulacion ampara determinados traslados entre lugares cuando no procede transporte ordinario con guia de pertenencia/licencia.",
+        "La guia de circulación ampara determinados traslados entre lugares cuando no procede transporte ordinario con guia de pertenencia/licencia.",
         "Los envases deben acondicionarse para seguridad y, en casos regulados, ir precintados.",
         "No se pueden enviar armas cargadas ni junto con cartucheria utilizable para ellas.",
         "Segun volumen y tipo de envio, intervienen empresas de transporte o seguridad autorizadas.",
@@ -97,19 +97,19 @@
         "Toda cesion o venta requiere que el receptor tenga licencia/tarjeta/habilitacion correspondiente.",
         "La Intervencion de Armas participa en la transferencia y emite nueva guia de pertenencia al adquirente.",
         "La guia del vendedor se recoge y se anula.",
-        "El prestamo temporal para caza o tiro es posible con autorizacion escrita y limites reglamentarios.",
-        "Las armas prestadas deben ir con su documentacion exigible."
+        "El prestamo temporal para caza o tiro es posible con autorización escrita y limites reglamentarios.",
+        "Las armas prestadas deben ir con su documentación exigible."
       ]
     },
     {
       "id": "tema4-licencias",
       "titulo": "Tema 4. Licencias, guias y tarjeta europea",
       "puntos": [
-        "Nadie puede poseer o portar armas de fuego sin autorizacion valida en territorio español.",
+        "Nadie puede poseer o portar armas de fuego sin autorización valida en territorio español.",
         "Licencia D: arma larga rayada para caza mayor.",
         "Licencia E: escopetas y determinadas categorias (incluidas algunas del grupo 7).",
         "Licencia F: armas de concurso para tiradores federados; B y C para supuestos distintos de particulares/seguridad.",
-        "Cada arma sujeta a documentacion debe contar con guia de pertenencia individual.",
+        "Cada arma sujeta a documentación debe contar con guia de pertenencia individual.",
         "La Tarjeta Europea de Armas de Fuego facilita desplazamientos en la UE con condiciones y limites.",
         "La tarjeta es personal, intransferible y recoge armas concretas del titular.",
         "En desplazamientos internacionales hay que acreditar motivo de viaje y cumplimiento documental."
@@ -120,13 +120,13 @@
       "titulo": "Tema 4. Solicitudes, renovaciones y menores",
       "puntos": [
         "La solicitud se presenta en la Intervencion de Armas del domicilio.",
-        "Documentacion habitual: antecedentes penales en vigor, identificacion oficial y aptitud psicofisica.",
+        "Documentación habitual: antecedentes penales en vigor, identificacion oficial y aptitud psicofisica.",
         "Para licencia E suele exigirse acreditacion de practica real de caza o deporte correspondiente.",
         "En renovaciones puede requerirse revista de armas documentadas.",
         "Si licencia o guia se pierde, roba o destruye, debe comunicarse de inmediato.",
-        "Puede emitirse autorizacion temporal de uso durante tramitaciones en supuestos previstos.",
-        "Menores con autorizacion especial: uso limitado por edad y siempre bajo acompanamiento responsable.",
-        "El incumplimiento de requisitos puede derivar en revocacion de licencia y deposito de armas."
+        "Puede emitirse autorización temporal de uso durante tramitaciones en supuestos previstos.",
+        "Menores con autorización especial: uso limitado por edad y siempre bajo acompanamiento responsable.",
+        "El incumplimiento de requisitos puede derivar en revocación de licencia y deposito de armas."
       ]
     },
     {
@@ -135,7 +135,7 @@
       "puntos": [
         "En materia de armas pueden concurrir infracciones penales o administrativas.",
         "Las administrativas se clasifican en muy graves, graves y leves.",
-        "Cada categoria de infraccion tiene plazos de prescripcion propios.",
+        "Cada categoria de infracción tiene plazos de prescripcion propios.",
         "Las sanciones tambien tienen sus propios plazos de prescripcion por gravedad.",
         "No se puede castigar penal y administrativamente el mismo hecho (principio non bis in idem).",
         "Las autoridades con competencia sancionadora incluyen DGGC, Delegacion de Gobierno y alcaldias en su marco.",
@@ -145,14 +145,14 @@
     },
     {
       "id": "tema5-infracciones",
-      "titulo": "Tema 5. Ejemplos tipicos de infraccion",
+      "titulo": "Tema 5. Ejemplos tipicos de infracción",
       "puntos": [
-        "Muy graves: fabricacion/comercio no autorizado de ciertas armas prohibidas o de guerra y uso de armas prohibidas.",
+        "Muy graves: fabricación/comercio no autorizado de ciertas armas prohibidas o de guerra y uso de armas prohibidas.",
         "Graves: tenencia o uso sin licencia/guia en supuestos reglados, omision de medidas de seguridad exigibles.",
         "Leves: omisiones documentales o de comunicacion cuando no alcanzan umbral de gravedad superior.",
-        "No pasar revistas obligatorias y no comunicar perdidas de documentacion puede ser sancionable.",
+        "No pasar revistas obligatorias y no comunicar perdidas de documentación puede ser sancionable.",
         "Portar armas en lugares publicos no habilitados para ello es una conducta tipificada.",
-        "El uso sin precauciones para evitar riesgos a personas o bienes conlleva sancion e incautacion en determinados casos.",
+        "El uso sin precauciones para evitar riesgos a personas o bienes conlleva sanción e incautacion en determinados casos.",
         "Puede acordarse retirada de licencias, armas y municion segun gravedad.",
         "En muchas preguntas se pide identificar correctamente si el caso es leve, grave o muy grave."
       ]
@@ -163,7 +163,7 @@
       "puntos": [
         "La reparacion de armas de fuego corresponde a fabricantes autorizados o armeros habilitados.",
         "El armero debe llevar registro de entradas/salidas y remitir informacion periodica cuando proceda.",
-        "No se admite arma a reparar sin su documentacion exigible (guia de pertenencia o circulacion segun caso).",
+        "No se admite arma a reparar sin su documentación exigible (guia de pertenencia o circulación segun caso).",
         "La guia puede quedar en deposito del armero mientras dure la reparacion.",
         "No se permite modificar caracteristicas o calibre sin control de la Intervencion y aprobaciones pertinentes.",
         "La prueba de armas solo se hace en campos, galerias o terrenos autorizados.",

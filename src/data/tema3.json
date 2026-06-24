@@ -1,20 +1,20 @@
 {
   "id": 3,
-  "nombre": "Circulacion y Transferencia",
-  "descripcion": "Guia de circulacion, envios, revista de armas, cesion y transferencia.",
+  "nombre": "Circulación y Transferencia",
+  "descripcion": "Guia de circulación, envios, revista de armas, cesion y transferencia.",
   "preguntas": [
     {
       "id": 3001,
       "texto": "Como se denomina el documento que ampara el traslado entre dos lugares de armas cuando procede sin licencia ni guia de pertenencia?",
       "opciones": [
-        { "id": "a", "texto": "Guia de circulacion.", "correcta": true },
+        { "id": "a", "texto": "Guia de circulación.", "correcta": true },
         { "id": "b", "texto": "Guia de transporte.", "correcta": false },
-        { "id": "c", "texto": "Albaran de circulacion.", "correcta": false }
+        { "id": "c", "texto": "Albaran de circulación.", "correcta": false }
       ]
     },
     {
       "id": 3002,
-      "texto": "Cuando un particular adquiere una escopeta en localidad distinta a su residencia, quien expide la guia de circulacion inicial?",
+      "texto": "Cuando un particular adquiere una escopeta en localidad distinta a su residencia, quien expide la guia de circulación inicial?",
       "opciones": [
         { "id": "a", "texto": "La Intervencion de Armas del lugar de compra.", "correcta": true },
         { "id": "b", "texto": "La Intervencion de Armas de su residencia.", "correcta": false },
@@ -23,7 +23,7 @@
     },
     {
       "id": 3003,
-      "texto": "Quien expide la guia de circulacion para transportar armas de fuego de 3a categoria?",
+      "texto": "Quien expide la guia de circulación para transportar armas de fuego de 3a categoria?",
       "opciones": [
         { "id": "a", "texto": "La Intervencion de Armas y Explosivos.", "correcta": true },
         { "id": "b", "texto": "El Comandante de Puesto.", "correcta": false },
@@ -34,8 +34,8 @@
       "id": 3004,
       "texto": "Si se envia una escopeta sin licencia y sin guia de pertenencia, que documento ampara el traslado?",
       "opciones": [
-        { "id": "a", "texto": "La guia de circulacion.", "correcta": true },
-        { "id": "b", "texto": "La autorizacion del armero.", "correcta": false },
+        { "id": "a", "texto": "La guia de circulación.", "correcta": true },
+        { "id": "b", "texto": "La autorización del armero.", "correcta": false },
         { "id": "c", "texto": "Permiso municipal.", "correcta": false }
       ]
     },
@@ -72,7 +72,7 @@
       "opciones": [
         { "id": "a", "texto": "No.", "correcta": true },
         { "id": "b", "texto": "Si, si es misma localidad.", "correcta": false },
-        { "id": "c", "texto": "Si, con autorizacion verbal.", "correcta": false }
+        { "id": "c", "texto": "Si, con autorización verbal.", "correcta": false }
       ]
     },
     {
@@ -160,7 +160,7 @@
       "id": 3018,
       "texto": "El hecho de no pasar la revista de armas constituye:",
       "opciones": [
-        { "id": "a", "texto": "Infraccion administrativa.", "correcta": true },
+        { "id": "a", "texto": "Infracción administrativa.", "correcta": true },
         { "id": "b", "texto": "Delito automaticamente.", "correcta": false },
         { "id": "c", "texto": "Falta sin consecuencias.", "correcta": false }
       ]
@@ -239,7 +239,7 @@
     },
     {
       "id": 3027,
-      "texto": "Para ceder temporalmente armas de caza, la autorizacion debe hacerse:",
+      "texto": "Para ceder temporalmente armas de caza, la autorización debe hacerse:",
       "opciones": [
         { "id": "a", "texto": "Por escrito, fechada y firmada.", "correcta": true },
         { "id": "b", "texto": "De palabra.", "correcta": false },
@@ -261,7 +261,7 @@
       "opciones": [
         { "id": "a", "texto": "Con sus guias de pertenencia.", "correcta": true },
         { "id": "b", "texto": "Solo con licencia de caza.", "correcta": false },
-        { "id": "c", "texto": "Con guia de circulacion.", "correcta": false }
+        { "id": "c", "texto": "Con guia de circulación.", "correcta": false }
       ]
     },
     {
@@ -277,14 +277,14 @@
       "id": 3031,
       "texto": "Una carabina de aire comprimido con energia superior a 24,2 julios, al ir sin licencia ni guia de pertenencia entre localidades, requiere:",
       "opciones": [
-        { "id": "a", "texto": "Guia de circulacion.", "correcta": true },
+        { "id": "a", "texto": "Guia de circulación.", "correcta": true },
         { "id": "b", "texto": "Ningun documento.", "correcta": false },
         { "id": "c", "texto": "Permiso del alcalde.", "correcta": false }
       ]
     },
     {
       "id": 3032,
-      "texto": "Ademas de la guia de circulacion, cuando se envia arma a reparar debe acompanar:",
+      "texto": "Ademas de la guia de circulación, cuando se envia arma a reparar debe acompanar:",
       "opciones": [
         { "id": "a", "texto": "La guia de pertenencia, salvo sustitucion reglamentaria.", "correcta": true },
         { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
@@ -331,8 +331,8 @@
       "id": 3037,
       "texto": "Cuando se remite un arma por reparacion u otras causas, la declaracion del contenido debe figurar:",
       "opciones": [
-        { "id": "a", "texto": "En documentacion y en el paquete con claridad.", "correcta": true },
-        { "id": "b", "texto": "Solo en documentacion interna no visible.", "correcta": false },
+        { "id": "a", "texto": "En documentación y en el paquete con claridad.", "correcta": true },
+        { "id": "b", "texto": "Solo en documentación interna no visible.", "correcta": false },
         { "id": "c", "texto": "En ningun sitio por reserva.", "correcta": false }
       ]
     },
@@ -340,7 +340,7 @@
       "id": 3038,
       "texto": "Puede un particular transportar personalmente un arma larga rayada recien comprada sin guia de pertenencia hasta su Intervencion?",
       "opciones": [
-        { "id": "a", "texto": "Si, con la documentacion que proceda para ese traslado.", "correcta": true },
+        { "id": "a", "texto": "Si, con la documentación que proceda para ese traslado.", "correcta": true },
         { "id": "b", "texto": "No, en ningun caso.", "correcta": false },
         { "id": "c", "texto": "Solo si es menor de 10 km.", "correcta": false }
       ]
@@ -356,10 +356,10 @@
     },
     {
       "id": 3040,
-      "texto": "Es correcto afirmar que una escopeta transportada por su titular con licencia y guia de pertenencia no necesita guia de circulacion en ese supuesto ordinario?",
+      "texto": "Es correcto afirmar que una escopeta transportada por su titular con licencia y guia de pertenencia no necesita guia de circulación en ese supuesto ordinario?",
       "opciones": [
         { "id": "a", "texto": "Si.", "correcta": true },
-        { "id": "b", "texto": "No, siempre necesita guia de circulacion.", "correcta": false },
+        { "id": "b", "texto": "No, siempre necesita guia de circulación.", "correcta": false },
         { "id": "c", "texto": "Solo dentro de provincia.", "correcta": false }
       ]
     }

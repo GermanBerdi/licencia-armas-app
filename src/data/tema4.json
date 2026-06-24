@@ -1,13 +1,13 @@
 {
   "id": 4,
-  "nombre": "Documentacion y Licencias",
+  "nombre": "Documentación y Licencias",
   "descripcion": "Licencias de armas, guias de pertenencia, tarjeta europea y tramite de solicitudes.",
   "preguntas": [
     {
       "id": 4001,
       "texto": "Para poseer y usar armas de fuego en territorio español se requiere:",
       "opciones": [
-        { "id": "a", "texto": "Autorizacion o licencia correspondiente expedida por organo competente.", "correcta": true },
+        { "id": "a", "texto": "Autorización o licencia correspondiente expedida por organo competente.", "correcta": true },
         { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
         { "id": "c", "texto": "Solo DNI.", "correcta": false }
       ]
@@ -59,7 +59,7 @@
     },
     {
       "id": 4007,
-      "texto": "Las solicitudes de expedicion de licencia de armas se presentan en:",
+      "texto": "Las solicitudes de expedición de licencia de armas se presentan en:",
       "opciones": [
         { "id": "a", "texto": "Intervencion de Armas de la Guardia Civil del domicilio del interesado.", "correcta": true },
         { "id": "b", "texto": "Ayuntamiento.", "correcta": false },
@@ -68,7 +68,7 @@
     },
     {
       "id": 4008,
-      "texto": "Para solicitar licencia, entre la documentacion basica se incluye:",
+      "texto": "Para solicitar licencia, entre la documentación basica se incluye:",
       "opciones": [
         { "id": "a", "texto": "Certificado de antecedentes penales, DNI/NIE e informe psicofisico.", "correcta": true },
         { "id": "b", "texto": "Solo certificado medico.", "correcta": false },
@@ -88,7 +88,7 @@
       "id": 4010,
       "texto": "Los menores de 16 a 18 años pueden usar armas de caza mayor si:",
       "opciones": [
-        { "id": "a", "texto": "Tienen autorizacion especial de menores y van acompanados por mayor con licencia D/E/F.", "correcta": true },
+        { "id": "a", "texto": "Tienen autorización especial de menores y van acompanados por mayor con licencia D/E/F.", "correcta": true },
         { "id": "b", "texto": "Tienen licencia D propia.", "correcta": false },
         { "id": "c", "texto": "Van solos con permiso de caza.", "correcta": false }
       ]
@@ -97,7 +97,7 @@
       "id": 4011,
       "texto": "Los menores de 14 a 18 años pueden usar armas de categorias 3a.2 y 3a.3 si:",
       "opciones": [
-        { "id": "a", "texto": "Obtienen autorizacion especial de uso para menores y cumplen condiciones de acompanamiento.", "correcta": true },
+        { "id": "a", "texto": "Obtienen autorización especial de uso para menores y cumplen condiciones de acompanamiento.", "correcta": true },
         { "id": "b", "texto": "Tienen licencia B.", "correcta": false },
         { "id": "c", "texto": "No existe ningun supuesto.", "correcta": false }
       ]
@@ -113,7 +113,7 @@
     },
     {
       "id": 4013,
-      "texto": "Las solicitudes de autorizacion especial para menores deben ir suscritas por:",
+      "texto": "Las solicitudes de autorización especial para menores deben ir suscritas por:",
       "opciones": [
         { "id": "a", "texto": "El interesado y quien ejerza patria potestad o tutela.", "correcta": true },
         { "id": "b", "texto": "Solo el menor.", "correcta": false },
@@ -131,16 +131,16 @@
     },
     {
       "id": 4015,
-      "texto": "Cuando la licencia esta proxima a caducar y se solicita renovacion, puede expedirse:",
+      "texto": "Cuando la licencia esta proxima a caducar y se solicita renovación, puede expedirse:",
       "opciones": [
-        { "id": "a", "texto": "Autorizacion temporal de uso de armas.", "correcta": true },
+        { "id": "a", "texto": "Autorización temporal de uso de armas.", "correcta": true },
         { "id": "b", "texto": "Nueva guia de pertenencia automatica.", "correcta": false },
         { "id": "c", "texto": "Permiso municipal de caza.", "correcta": false }
       ]
     },
     {
       "id": 4016,
-      "texto": "La autorizacion temporal de uso de armas por renovacion suele tener validez de:",
+      "texto": "La autorización temporal de uso de armas por renovación suele tener validez de:",
       "opciones": [
         { "id": "a", "texto": "Tres meses.", "correcta": true },
         { "id": "b", "texto": "Un mes.", "correcta": false },
@@ -160,7 +160,7 @@
       "id": 4018,
       "texto": "Si se pierden o roban licencias o guias, la Intervencion puede:",
       "opciones": [
-        { "id": "a", "texto": "Extender autorizacion temporal de uso o exigir deposito inmediato de armas.", "correcta": true },
+        { "id": "a", "texto": "Extender autorización temporal de uso o exigir deposito inmediato de armas.", "correcta": true },
         { "id": "b", "texto": "No hacer nada hasta juicio.", "correcta": false },
         { "id": "c", "texto": "Anular automaticamente toda licencia para siempre.", "correcta": false }
       ]
@@ -295,16 +295,16 @@
       "id": 4033,
       "texto": "Si no se mantienen los requisitos de otorgamiento de licencia procede:",
       "opciones": [
-        { "id": "a", "texto": "Revocacion de la licencia.", "correcta": true },
+        { "id": "a", "texto": "Revocación de la licencia.", "correcta": true },
         { "id": "b", "texto": "Prorroga automatica.", "correcta": false },
-        { "id": "c", "texto": "Nada hasta infraccion penal.", "correcta": false }
+        { "id": "c", "texto": "Nada hasta infracción penal.", "correcta": false }
       ]
     },
     {
       "id": 4034,
       "texto": "La retirada de licencias o autorizaciones especiales implica:",
       "opciones": [
-        { "id": "a", "texto": "Revocacion e impedimento temporal de renovacion y deposito obligatorio de armas.", "correcta": true },
+        { "id": "a", "texto": "Revocación e impedimento temporal de renovación y deposito obligatorio de armas.", "correcta": true },
         { "id": "b", "texto": "Solo aviso por escrito.", "correcta": false },
         { "id": "c", "texto": "Destruccion inmediata del arma.", "correcta": false }
       ]
@@ -313,8 +313,8 @@
       "id": 4035,
       "texto": "La retirada de armas implica:",
       "opciones": [
-        { "id": "a", "texto": "Desposesion y prohibicion de adquirir/poseer otras por plazo determinado (maximo reglamentario).", "correcta": true },
-        { "id": "b", "texto": "Simple suspension de caza.", "correcta": false },
+        { "id": "a", "texto": "Desposesión y prohibición de adquirir/poseer otras por plazo determinado (maximo reglamentario).", "correcta": true },
+        { "id": "b", "texto": "Simple suspensión de caza.", "correcta": false },
         { "id": "c", "texto": "Inhabilitacion perpetua.", "correcta": false }
       ]
     },

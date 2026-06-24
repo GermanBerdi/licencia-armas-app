@@ -31,15 +31,15 @@
         "Las armas reglamentadas se clasifican por categorias en funcion de caracteristicas, peligrosidad y uso.",
         "Licencias mas frecuentes en examen: D (arma larga rayada de caza mayor) y E (escopetas y determinadas categorias).",
         "Armas prohibidas: incluye supuestos como silenciadores, determinadas configuraciones semiautomaticas y otras del articulo 4.",
-        "Armas de guerra: adquisicion, tenencia y uso prohibidos a particulares salvo excepciones legalmente previstas.",
+        "Armas de guerra: adquisición, tenencia y uso prohibidos a particulares salvo excepciones legalmente previstas.",
         "Conviene dominar la diferencia entre categoria del arma y tipo de licencia exigida."
       ]
     },
     {
       "id": "tema3",
-      "titulo": "Tema 3. Circulacion, revista y transferencias",
+      "titulo": "Tema 3. Circulación, revista y transferencias",
       "puntos": [
-        "La guia de circulacion ampara traslados en los supuestos reglamentarios cuando no procede hacerlo con licencia/guia de pertenencia.",
+        "La guia de circulación ampara traslados en los supuestos reglamentarios cuando no procede hacerlo con licencia/guia de pertenencia.",
         "Envios: nunca armas cargadas ni junto con cartucheria utilizable con ellas.",
         "Revista de armas: periodicidad segun categoria; no pasar dos revistas consecutivas puede implicar retirada de guia y deposito.",
         "Cesiones y ventas entre particulares requieren que el receptor tenga habilitacion y que intervenga la Intervencion de Armas.",
@@ -48,20 +48,20 @@
     },
     {
       "id": "tema4",
-      "titulo": "Tema 4. Documentacion, licencias y tramites",
+      "titulo": "Tema 4. Documentación, licencias y tramites",
       "puntos": [
         "Cada arma debe ir documentada correctamente (guia de pertenencia cuando corresponda).",
         "Licencias: A, B, C, D, E, F segun tipo de arma y uso; para viaje UE destaca la Tarjeta Europea de Armas de Fuego.",
         "Solicitud de licencia: DNI/NIE, antecedentes penales, aptitudes psicofisicas y requisitos especificos segun licencia.",
-        "Menores: autorizacion especial de uso con condiciones de edad, acompanamiento y responsabilidades del tutor.",
-        "En renovaciones, perdidas o robos puede emitirse autorizacion temporal de uso en los casos previstos."
+        "Menores: autorización especial de uso con condiciones de edad, acompanamiento y responsabilidades del tutor.",
+        "En renovaciones, perdidas o robos puede emitirse autorización temporal de uso en los casos previstos."
       ]
     },
     {
       "id": "tema5",
       "titulo": "Tema 5. Regimen sancionador e infracciones",
       "puntos": [
-        "Puede haber infraccion penal o administrativa; las administrativas se clasifican en muy graves, graves y leves.",
+        "Puede haber infracción penal o administrativa; las administrativas se clasifican en muy graves, graves y leves.",
         "Autoridades con competencias sancionadoras: Director General de la Guardia Civil, Delegacion del Gobierno y Alcaldias en su ambito.",
         "Importante memorizar prescripcion de infracciones y sanciones por nivel.",
         "No se puede sancionar penal y administrativamente por el mismo hecho.",
@@ -73,10 +73,10 @@
       "titulo": "Tema 6. Reparacion, prueba y deposito de armas",
       "puntos": [
         "La reparacion de armas de fuego corresponde a fabricantes o armeros autorizados e inscritos.",
-        "Para reparar, el arma debe ir documentada; si se remite entre localidades puede requerir guia de circulacion.",
+        "Para reparar, el arma debe ir documentada; si se remite entre localidades puede requerir guia de circulación.",
         "No se permite modificar calibre/estructura sin conocimiento y aprobacion de la autoridad competente.",
         "Pruebas de armas: solo en lugares autorizados y con documento personal e intransferible visado cuando proceda.",
-        "Deposito obligatorio en supuestos como fallecimiento del titular, perdida de habilitacion o anulación de documentacion."
+        "Deposito obligatorio en supuestos como fallecimiento del titular, perdida de habilitacion o anulación de documentación."
       ]
     },
     {

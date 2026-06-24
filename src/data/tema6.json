@@ -25,9 +25,9 @@
       "id": 6003,
       "texto": "Se admite un arma a reparar sin guia de pertenencia?",
       "opciones": [
-        { "id": "a", "texto": "No, salvo sustitucion reglamentaria por guia de circulacion cuando proceda.", "correcta": true },
+        { "id": "a", "texto": "No, salvo sustitucion reglamentaria por guia de circulación cuando proceda.", "correcta": true },
         { "id": "b", "texto": "Si, siempre.", "correcta": false },
-        { "id": "c", "texto": "Si, con autorizacion verbal.", "correcta": false }
+        { "id": "c", "texto": "Si, con autorización verbal.", "correcta": false }
       ]
     },
     {
@@ -43,7 +43,7 @@
       "id": 6005,
       "texto": "Si el arma se envia a reparar desde localidad distinta y no la lleva personalmente su titular, la guia de pertenencia se sustituye por:",
       "opciones": [
-        { "id": "a", "texto": "Guia de circulacion expedida por la Intervencion de Armas de origen.", "correcta": true },
+        { "id": "a", "texto": "Guia de circulación expedida por la Intervencion de Armas de origen.", "correcta": true },
         { "id": "b", "texto": "Albaran de transporte.", "correcta": false },
         { "id": "c", "texto": "Permiso del alcalde.", "correcta": false }
       ]
@@ -52,7 +52,7 @@
       "id": 6006,
       "texto": "Puede el titular llevar personalmente su arma a un establecimiento autorizado para reparacion?",
       "opciones": [
-        { "id": "a", "texto": "Si, acompanada de su guia de pertenencia y documentacion aplicable.", "correcta": true },
+        { "id": "a", "texto": "Si, acompanada de su guia de pertenencia y documentación aplicable.", "correcta": true },
         { "id": "b", "texto": "No, nunca.", "correcta": false },
         { "id": "c", "texto": "Solo si es escopeta.", "correcta": false }
       ]
@@ -72,7 +72,7 @@
       "opciones": [
         { "id": "a", "texto": "Conocimiento de la Intervencion y aprobacion del organismo competente cuando proceda.", "correcta": true },
         { "id": "b", "texto": "Solo consentimiento del titular.", "correcta": false },
-        { "id": "c", "texto": "No requiere autorizacion.", "correcta": false }
+        { "id": "c", "texto": "No requiere autorización.", "correcta": false }
       ]
     },
     {
@@ -151,7 +151,7 @@
       "id": 6017,
       "texto": "En caso de fallecimiento del titular de armas, herederos o albaceas deben depositarlas:",
       "opciones": [
-        { "id": "a", "texto": "Tan pronto conozcan la obligacion y, en todo caso, dentro de seis meses.", "correcta": true },
+        { "id": "a", "texto": "Tan pronto conozcan la obligación y, en todo caso, dentro de seis meses.", "correcta": true },
         { "id": "b", "texto": "Al año exacto.", "correcta": false },
         { "id": "c", "texto": "No existe plazo.", "correcta": false }
       ]
@@ -167,11 +167,11 @@
     },
     {
       "id": 6019,
-      "texto": "Al depositar armas por fallecimiento, que documentacion acompana normalmente a las armas?",
+      "texto": "Al depositar armas por fallecimiento, que documentación acompana normalmente a las armas?",
       "opciones": [
         { "id": "a", "texto": "Las guias de pertenencia para su anulacion.", "correcta": true },
         { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
-        { "id": "c", "texto": "No se entrega documentacion.", "correcta": false }
+        { "id": "c", "texto": "No se entrega documentación.", "correcta": false }
       ]
     },
     {
@@ -221,7 +221,7 @@
     },
     {
       "id": 6025,
-      "texto": "Las armas depositadas por infraccion pueden ser recuperadas posteriormente?",
+      "texto": "Las armas depositadas por infracción pueden ser recuperadas posteriormente?",
       "opciones": [
         { "id": "a", "texto": "Si, en los terminos que procedan.", "correcta": true },
         { "id": "b", "texto": "No, se destruyen siempre.", "correcta": false },
@@ -230,7 +230,7 @@
     },
     {
       "id": 6026,
-      "texto": "Si titulares no desean recuperar armas depositadas por infraccion, pueden destinarse a:",
+      "texto": "Si titulares no desean recuperar armas depositadas por infracción, pueden destinarse a:",
       "opciones": [
         { "id": "a", "texto": "Subasta.", "correcta": true },
         { "id": "b", "texto": "Uso administrativo directo.", "correcta": false },
@@ -250,7 +250,7 @@
       "id": 6028,
       "texto": "El arma reparada debe devolverse al interesado:",
       "opciones": [
-        { "id": "a", "texto": "Con su guia/documentacion correspondiente una vez finalizada reparacion.", "correcta": true },
+        { "id": "a", "texto": "Con su guia/documentación correspondiente una vez finalizada reparacion.", "correcta": true },
         { "id": "b", "texto": "Sin guia, solo factura.", "correcta": false },
         { "id": "c", "texto": "Solo al representante legal.", "correcta": false }
       ]
@@ -324,7 +324,7 @@
       "opciones": [
         { "id": "a", "texto": "Libro de entradas/salidas con comunicacion periodica a Intervencion.", "correcta": true },
         { "id": "b", "texto": "Solo facturacion interna.", "correcta": false },
-        { "id": "c", "texto": "No hay obligacion registral.", "correcta": false }
+        { "id": "c", "texto": "No hay obligación registral.", "correcta": false }
       ]
     },
     {

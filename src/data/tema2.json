@@ -5,7 +5,7 @@
   "preguntas": [
     {
       "id": 2001,
-      "texto": "La clasificacion de un arma dentro de una categoria se determina en base a:",
+      "texto": "La clasificación de un arma dentro de una categoria se determina en base a:",
       "opciones": [
         { "id": "a", "texto": "Su grado de peligrosidad.", "correcta": false },
         { "id": "b", "texto": "Sus caracteristicas, destino o utilidad y a veces por la licencia que la ampare.", "correcta": false },
@@ -279,7 +279,7 @@
       "opciones": [
         { "id": "a", "texto": "No se pueden utilizar por ser calibres de guerra.", "correcta": false },
         { "id": "b", "texto": "Se utilicen con bala expansiva y rifle de repeticion.", "correcta": true },
-        { "id": "c", "texto": "Exista autorizacion especial del Ministerio de Defensa.", "correcta": false }
+        { "id": "c", "texto": "Exista autorización especial del Ministerio de Defensa.", "correcta": false }
       ]
     },
     {

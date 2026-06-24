@@ -5,7 +5,7 @@
   "preguntas": [
     {
       "id": 7001,
-      "texto": "En la Categoria 6a.2 del articulo 3, del Reglamento de Armas, se encuentran las armas de fuego cuyo modelo o año de fabricacion sean anteriores al 1 de enero de 1899, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas?",
+      "texto": "En la Categoria 6a.2 del articulo 3, del Reglamento de Armas, se encuentran las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1899, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas?",
       "opciones": [
         { "id": "a", "texto": "Cierto.", "correcta": false },
         { "id": "b", "texto": "Falso.", "correcta": true },
@@ -14,11 +14,11 @@
     },
     {
       "id": 7002,
-      "texto": "Segun se dispone en el articulo 107.c), del Reglamento de Armas, para su uso, las armas largas y cortas de avancarga y las demas de la categoria 6.2 precisaran la posesion de un certificado de un banco oficial de pruebas para cada arma y...",
+      "texto": "Segun se dispone en el articulo 107.c), del Reglamento de Armas, para su uso, las armas largas y cortas de avancarga y las demas de la categoria 6.2 precisaran la posesión de un certificado de un banco oficial de pruebas para cada arma y...",
       "opciones": [
         { "id": "a", "texto": "La correspondiente Licencia de armas.", "correcta": false },
         { "id": "b", "texto": "La Licencia especial de armas.", "correcta": false },
-        { "id": "c", "texto": "La obtencion de una autorizacion especial.", "correcta": true }
+        { "id": "c", "texto": "La obtencion de una autorización especial.", "correcta": true }
       ]
     },
     {
@@ -27,7 +27,7 @@
       "opciones": [
         { "id": "a", "texto": "Arma de fuego que en su ornamentacion presenta una peculiaridad distinta a las demas de su clase, en razon de los materiales nobles empleados o de diseño, que le confiere un especial valor.", "correcta": false },
         { "id": "b", "texto": "Arma de fuego portatil que utiliza municion de calibre flobert.", "correcta": false },
-        { "id": "c", "texto": "Arma de fuego cuyo modelo o cuyo año de fabricacion es anterior al 1 de enero de 1890.", "correcta": true }
+        { "id": "c", "texto": "Arma de fuego cuyo modelo o cuyo año de fabricación es anterior al 1 de enero de 1890.", "correcta": true }
       ]
     },
     {
@@ -41,7 +41,7 @@
     },
     {
       "id": 7005,
-      "texto": "La antigüedad de las armas de fuego cuyo modelo o año de fabricacion sean anteriores al 1 de enero de 1890, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas, sera fijada por la Direccion General de la Guardia Civil?",
+      "texto": "La antigüedad de las armas de fuego cuyo modelo o año de fabricación sean anteriores al 1 de enero de 1890, y las reproducciones de las mismas, a menos que puedan disparar municiones destinadas a armas de guerra o a armas prohibidas, sera fijada por la Direccion General de la Guardia Civil?",
       "opciones": [
         { "id": "a", "texto": "Cierto.", "correcta": false },
         { "id": "b", "texto": "Falso.", "correcta": true },
@@ -61,7 +61,7 @@
       "id": 7007,
       "texto": "Las armas de fuego antiguas, sus reproducciones y asimiladas, susceptibles de hacer fuego, en que lugares se podran utilizar?",
       "opciones": [
-        { "id": "a", "texto": "Excepcionalmente, se podran utilizar en campos, galerias o poligonos de tiro controlados para practicas, previa obtencion de una autorizacion especial.", "correcta": true },
+        { "id": "a", "texto": "Excepcionalmente, se podran utilizar en campos, galerias o poligonos de tiro controlados para practicas, previa obtencion de una autorización especial.", "correcta": true },
         { "id": "b", "texto": "Unicamente en poligonos de tiro de concurso.", "correcta": false },
         { "id": "c", "texto": "En todo caso, se podran utilizar en la practica de la caza mayor.", "correcta": false }
       ]
@@ -88,7 +88,7 @@
       "id": 7010,
       "texto": "Que tipo de municion deberan utilizar las reproducciones de armas de fuego antiguas?",
       "opciones": [
-        { "id": "a", "texto": "Municion metalica utilizada para las armas de fabricacion actual y del mismo calibre.", "correcta": false },
+        { "id": "a", "texto": "Municion metalica utilizada para las armas de fabricación actual y del mismo calibre.", "correcta": false },
         { "id": "b", "texto": "Municion con polvora negra, y del calibre de las mismas.", "correcta": true },
         { "id": "c", "texto": "Municion con polvora sin humo.", "correcta": false }
       ]
@@ -140,7 +140,7 @@
     },
     {
       "id": 7016,
-      "texto": "En relacion a las armas retiradas por infraccion a la Ley de Caza, si la Autoridad competente acordara la devolucion de las mismas...",
+      "texto": "En relacion a las armas retiradas por infracción a la Ley de Caza, si la Autoridad competente acordara la devolucion de las mismas...",
       "opciones": [
         { "id": "a", "texto": "Las armas estaran depositadas en la Intervencion a disposicion de los particulares por un plazo maximo de un mes.", "correcta": false },
         { "id": "b", "texto": "A partir de un mes de la notificacion por parte de la Autoridad competente, si no fuesen retiradas por su propietario seran destruidas.", "correcta": false },
