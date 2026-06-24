@@ -319,6 +319,7 @@ function InfoExamen({ temasDisponibles, onStart }) {
 export default function App() {
   const [vista, setVista] = useState(null)
   const [preguntas, setPreguntas] = useState(null)
+  const [quizKey, setQuizKey] = useState(0)
   const [seccionAbierta, setSeccionAbierta] = useState(null)
 
   function iniciarTema(temaData) {
@@ -335,6 +336,7 @@ export default function App() {
   function iniciarSimulacro(temasDisponibles) {
     const seleccion = construirSimulacro(temasDisponibles)
     setPreguntas(seleccion)
+    setQuizKey(k => k + 1)
     setVista('examen')
   }
 
@@ -435,7 +437,7 @@ export default function App() {
         ) : vista === 'examen' && preguntas ? (
           <>
             <h1 className="contenido-titulo">Simulacro de Examen</h1>
-            <Quiz preguntas={preguntas} onFinish={volver} onRetry={() => iniciarSimulacro(temasDisponibles)} temaId={null} passThreshold={16} />
+            <Quiz key={quizKey} preguntas={preguntas} onFinish={volver} onRetry={() => iniciarSimulacro(temasDisponibles)} temaId={null} passThreshold={16} />
           </>
         ) : vista === 'examen' ? (
           <InfoExamen temasDisponibles={temasDisponibles} onStart={() => iniciarSimulacro(temasDisponibles)} />
