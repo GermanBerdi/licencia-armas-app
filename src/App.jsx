@@ -308,7 +308,7 @@ function InfoExamen({ temasDisponibles, onStart }) {
           <tr className="total-row"><td>Total</td><td>20</td></tr>
         </tbody>
       </table>
-      <p className="info-pendiente">Banco actual: {totalDisponibles} preguntas disponibles.</p>
+      <p className="info-pendiente">Banco actual: {totalDisponibles} preguntas.</p>
       <button className="btn-corregir" onClick={onStart} disabled={!puedeIniciar}>
         {puedeIniciar ? 'Empezar simulacro' : 'Necesitas al menos 20 preguntas cargadas'}
       </button>
