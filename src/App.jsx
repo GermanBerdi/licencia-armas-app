@@ -338,6 +338,7 @@ export default function App() {
     setPreguntas(seleccion)
     setQuizKey(k => k + 1)
     setVista('examen')
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   function volver() {
