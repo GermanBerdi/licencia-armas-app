@@ -16,16 +16,16 @@
       "id": 3002,
       "texto": "Cuando un particular adquiere una escopeta en localidad distinta a su residencia, quien expide la guia de circulación inicial?",
       "opciones": [
-        { "id": "a", "texto": "La Intervencion de Armas del lugar de compra.", "correcta": true },
-        { "id": "b", "texto": "La Intervencion de Armas de su residencia.", "correcta": false },
+        { "id": "a", "texto": "La Intervención de Armas del lugar de compra.", "correcta": true },
+        { "id": "b", "texto": "La Intervención de Armas de su residencia.", "correcta": false },
         { "id": "c", "texto": "El ayuntamiento.", "correcta": false }
       ]
     },
     {
       "id": 3003,
-      "texto": "Quien expide la guia de circulación para transportar armas de fuego de 3a categoria?",
+      "texto": "¿Quién expide la guía de circulación para transportar armas de fuego de 3ª categoría?",
       "opciones": [
-        { "id": "a", "texto": "La Intervencion de Armas y Explosivos.", "correcta": true },
+        { "id": "a", "texto": "La Intervención de Armas y Explosivos.", "correcta": true },
         { "id": "b", "texto": "El Comandante de Puesto.", "correcta": false },
         { "id": "c", "texto": "La alcaldia.", "correcta": false }
       ]
@@ -59,9 +59,9 @@
     },
     {
       "id": 3007,
-      "texto": "Quien puede precintar envases que contengan armas largas de canon estriado?",
+      "texto": "¿Quién puede precintar envases que contengan armas largas de cañón estriado?",
       "opciones": [
-        { "id": "a", "texto": "Intervencion de Armas o armero/comerciante autorizado.", "correcta": true },
+        { "id": "a", "texto": "Intervención de Armas o armero/comerciante autorizado.", "correcta": true },
         { "id": "b", "texto": "Solo Correos.", "correcta": false },
         { "id": "c", "texto": "Solo empresa transportista.", "correcta": false }
       ]
@@ -79,7 +79,7 @@
       "id": 3009,
       "texto": "Se puede enviar rifle y escopeta en un mismo envase?",
       "opciones": [
-        { "id": "a", "texto": "No, no deben ir juntas armas de canon estriado con escopetas de caza.", "correcta": true },
+        { "id": "a", "texto": "No, no deben ir juntas armas de cañón estriado con escopetas de caza.", "correcta": true },
         { "id": "b", "texto": "Si, siempre.", "correcta": false },
         { "id": "c", "texto": "Solo si lo autoriza el comprador.", "correcta": false }
       ]
@@ -104,7 +104,7 @@
     },
     {
       "id": 3012,
-      "texto": "Que plazo tiene el particular para acudir a su Intervencion y solicitar guia de pertenencia tras comprar escopeta fuera de su localidad?",
+      "texto": "Que plazo tiene el particular para acudir a su Intervención y solicitar guia de pertenencia tras comprar escopeta fuera de su localidad?",
       "opciones": [
         { "id": "a", "texto": "Diez dias.", "correcta": true },
         { "id": "b", "texto": "Treinta dias.", "correcta": false },
@@ -113,7 +113,7 @@
     },
     {
       "id": 3013,
-      "texto": "Para retirar en Intervencion una escopeta enviada, el destinatario debe presentarse con:",
+      "texto": "Para retirar en Intervención una escopeta enviada, el destinatario debe presentarse con:",
       "opciones": [
         { "id": "a", "texto": "Licencia o documento que le autorice para adquirirla.", "correcta": true },
         { "id": "b", "texto": "Solo DNI.", "correcta": false },
@@ -205,14 +205,14 @@
       "id": 3023,
       "texto": "Al enajenar un arma de fuego, la guia de pertenencia del vendedor se entrega en:",
       "opciones": [
-        { "id": "a", "texto": "La Intervencion de Armas.", "correcta": true },
+        { "id": "a", "texto": "La Intervención de Armas.", "correcta": true },
         { "id": "b", "texto": "El ayuntamiento.", "correcta": false },
         { "id": "c", "texto": "La comisaria local.", "correcta": false }
       ]
     },
     {
       "id": 3024,
-      "texto": "Debe comunicarse la enajenacion de un arma a la Intervencion de Armas?",
+      "texto": "Debe comunicarse la enajenacion de un arma a la Intervención de Armas?",
       "opciones": [
         { "id": "a", "texto": "Siempre.", "correcta": true },
         { "id": "b", "texto": "Nunca.", "correcta": false },
@@ -232,7 +232,7 @@
       "id": 3026,
       "texto": "La venta de un arma de fuego se efectua siempre con conocimiento de:",
       "opciones": [
-        { "id": "a", "texto": "Intervencion de Armas correspondiente.", "correcta": true },
+        { "id": "a", "texto": "Intervención de Armas correspondiente.", "correcta": true },
         { "id": "b", "texto": "Registro de la propiedad.", "correcta": false },
         { "id": "c", "texto": "Diputacion provincial.", "correcta": false }
       ]
@@ -284,7 +284,7 @@
     },
     {
       "id": 3032,
-      "texto": "Ademas de la guia de circulación, cuando se envia arma a reparar debe acompanar:",
+      "texto": "Ademas de la guia de circulación, cuando se envia arma a reparar debe acompañar:",
       "opciones": [
         { "id": "a", "texto": "La guia de pertenencia, salvo sustitucion reglamentaria.", "correcta": true },
         { "id": "b", "texto": "Solo licencia de caza.", "correcta": false },
@@ -338,7 +338,7 @@
     },
     {
       "id": 3038,
-      "texto": "Puede un particular transportar personalmente un arma larga rayada recien comprada sin guia de pertenencia hasta su Intervencion?",
+      "texto": "Puede un particular transportar personalmente un arma larga rayada recien comprada sin guia de pertenencia hasta su Intervención?",
       "opciones": [
         { "id": "a", "texto": "Si, con la documentación que proceda para ese traslado.", "correcta": true },
         { "id": "b", "texto": "No, en ningun caso.", "correcta": false },

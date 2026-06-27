@@ -61,7 +61,7 @@
       "id": 4007,
       "texto": "Las solicitudes de expedición de licencia de armas se presentan en:",
       "opciones": [
-        { "id": "a", "texto": "Intervencion de Armas de la Guardia Civil del domicilio del interesado.", "correcta": true },
+        { "id": "a", "texto": "Intervención de Armas de la Guardia Civil del domicilio del interesado.", "correcta": true },
         { "id": "b", "texto": "Ayuntamiento.", "correcta": false },
         { "id": "c", "texto": "Juzgado de guardia.", "correcta": false }
       ]
@@ -151,14 +151,14 @@
       "id": 4017,
       "texto": "Si se pierde, destruye o sustrae un arma de categorias 1a, 2a o 3a, el titular debe:",
       "opciones": [
-        { "id": "a", "texto": "Comunicarlo inmediatamente a la Intervencion de Armas y entregar la guia de pertenencia.", "correcta": true },
+        { "id": "a", "texto": "Comunicarlo inmediatamente a la Intervención de Armas y entregar la guia de pertenencia.", "correcta": true },
         { "id": "b", "texto": "Esperar 30 dias.", "correcta": false },
         { "id": "c", "texto": "Comunicarlo solo al seguro privado.", "correcta": false }
       ]
     },
     {
       "id": 4018,
-      "texto": "Si se pierden o roban licencias o guias, la Intervencion puede:",
+      "texto": "Si se pierden o roban licencias o guias, la Intervención puede:",
       "opciones": [
         { "id": "a", "texto": "Extender autorización temporal de uso o exigir deposito inmediato de armas.", "correcta": true },
         { "id": "b", "texto": "No hacer nada hasta juicio.", "correcta": false },
@@ -230,10 +230,10 @@
     },
     {
       "id": 4026,
-      "texto": "Quienes pueden obtener Tarjeta Europea de Armas de Fuego expedida en Espana?",
+      "texto": "Quienes pueden obtener Tarjeta Europea de Armas de Fuego expedida en España?",
       "opciones": [
-        { "id": "a", "texto": "Espanoles y extranjeros residentes en Espana documentados para uso y tenencia.", "correcta": true },
-        { "id": "b", "texto": "Solo espanoles no residentes.", "correcta": false },
+        { "id": "a", "texto": "Españoles y extranjeros residentes en España documentados para uso y tenencia.", "correcta": true },
+        { "id": "b", "texto": "Solo españoles no residentes.", "correcta": false },
         { "id": "c", "texto": "Cualquier turista.", "correcta": false }
       ]
     },
@@ -338,7 +338,7 @@
     },
     {
       "id": 4038,
-      "texto": "Quien expide la guia de pertenencia de un arma?",
+      "texto": "¿Quién expide la guía de pertenencia de un arma?",
       "opciones": [
         { "id": "a", "texto": "El Interventor de Armas.", "correcta": true },
         { "id": "b", "texto": "El Delegado del Gobierno.", "correcta": false },

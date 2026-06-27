@@ -212,7 +212,7 @@
     },
     {
       "id": 2024,
-      "texto": "Las armas largas especificas para desempenar funciones de guarderia en que categoria se clasifican?",
+      "texto": "Las armas largas especificas para desempeñar funciones de guarderia en que categoria se clasifican?",
       "opciones": [
         { "id": "a", "texto": "1a categoria.", "correcta": false },
         { "id": "b", "texto": "2a.1 categoria.", "correcta": true },
@@ -266,7 +266,7 @@
     },
     {
       "id": 2030,
-      "texto": "Quien puede legalizar armas de guerra para un particular?",
+      "texto": "¿Quién puede legalizar armas de guerra para un particular?",
       "opciones": [
         { "id": "a", "texto": "No puede legalizarse.", "correcta": true },
         { "id": "b", "texto": "Ministro de Defensa.", "correcta": false },

@@ -7,7 +7,7 @@
       "id": 6001,
       "texto": "La reparacion de armas de fuego debe realizarse por:",
       "opciones": [
-        { "id": "a", "texto": "Industrias fabricantes o armeros autorizados por la Intervencion de Armas.", "correcta": true },
+        { "id": "a", "texto": "Industrias fabricantes o armeros autorizados por la Intervención de Armas.", "correcta": true },
         { "id": "b", "texto": "Cualquier taller mecanico.", "correcta": false },
         { "id": "c", "texto": "Solo el propietario del arma.", "correcta": false }
       ]
@@ -43,7 +43,7 @@
       "id": 6005,
       "texto": "Si el arma se envia a reparar desde localidad distinta y no la lleva personalmente su titular, la guia de pertenencia se sustituye por:",
       "opciones": [
-        { "id": "a", "texto": "Guia de circulación expedida por la Intervencion de Armas de origen.", "correcta": true },
+        { "id": "a", "texto": "Guia de circulación expedida por la Intervención de Armas de origen.", "correcta": true },
         { "id": "b", "texto": "Albaran de transporte.", "correcta": false },
         { "id": "c", "texto": "Permiso del alcalde.", "correcta": false }
       ]
@@ -59,7 +59,7 @@
     },
     {
       "id": 6007,
-      "texto": "Esta permitida una reparacion que modifique calibre o estructura sin conocimiento de la Intervencion de Armas?",
+      "texto": "Esta permitida una reparacion que modifique calibre o estructura sin conocimiento de la Intervención de Armas?",
       "opciones": [
         { "id": "a", "texto": "No.", "correcta": true },
         { "id": "b", "texto": "Si, si lo hace un armero.", "correcta": false },
@@ -70,7 +70,7 @@
       "id": 6008,
       "texto": "La modificacion sustancial de caracteristicas de un arma en reparacion requiere:",
       "opciones": [
-        { "id": "a", "texto": "Conocimiento de la Intervencion y aprobacion del organismo competente cuando proceda.", "correcta": true },
+        { "id": "a", "texto": "Conocimiento de la Intervención y aprobacion del organismo competente cuando proceda.", "correcta": true },
         { "id": "b", "texto": "Solo consentimiento del titular.", "correcta": false },
         { "id": "c", "texto": "No requiere autorización.", "correcta": false }
       ]
@@ -106,7 +106,7 @@
       "id": 6012,
       "texto": "El documento de prueba del arma debe estar visado por:",
       "opciones": [
-        { "id": "a", "texto": "La Intervencion de Armas correspondiente.", "correcta": true },
+        { "id": "a", "texto": "La Intervención de Armas correspondiente.", "correcta": true },
         { "id": "b", "texto": "El ayuntamiento.", "correcta": false },
         { "id": "c", "texto": "No requiere visado.", "correcta": false }
       ]
@@ -322,7 +322,7 @@
       "id": 6036,
       "texto": "Los armeros que reparan armas deben llevar:",
       "opciones": [
-        { "id": "a", "texto": "Libro de entradas/salidas con comunicacion periodica a Intervencion.", "correcta": true },
+        { "id": "a", "texto": "Libro de entradas/salidas con comunicacion periodica a Intervención.", "correcta": true },
         { "id": "b", "texto": "Solo facturacion interna.", "correcta": false },
         { "id": "c", "texto": "No hay obligación registral.", "correcta": false }
       ]

@@ -142,7 +142,7 @@
       "id": 7016,
       "texto": "En relacion a las armas retiradas por infracción a la Ley de Caza, si la Autoridad competente acordara la devolucion de las mismas...",
       "opciones": [
-        { "id": "a", "texto": "Las armas estaran depositadas en la Intervencion a disposicion de los particulares por un plazo maximo de un mes.", "correcta": false },
+        { "id": "a", "texto": "Las armas estaran depositadas en la Intervención a disposicion de los particulares por un plazo maximo de un mes.", "correcta": false },
         { "id": "b", "texto": "A partir de un mes de la notificacion por parte de la Autoridad competente, si no fuesen retiradas por su propietario seran destruidas.", "correcta": false },
         { "id": "c", "texto": "Ambas son correctas.", "correcta": true }
       ]

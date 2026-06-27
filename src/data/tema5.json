@@ -185,7 +185,7 @@
     },
     {
       "id": 5021,
-      "texto": "Utilizar armas sin adoptar medidas de seguridad para no causar peligro o danos se considera:",
+      "texto": "Utilizar armas sin adoptar medidas de seguridad para no causar peligro o daños se considera:",
       "opciones": [
         { "id": "a", "texto": "Infracción grave.", "correcta": true },
         { "id": "b", "texto": "Infracción leve siempre.", "correcta": false },
@@ -266,7 +266,7 @@
     },
     {
       "id": 5030,
-      "texto": "Recortar canones de un arma en casa, cualquiera que sea su fin:",
+      "texto": "Recortar cañones de un arma en casa, cualquiera que sea su fin:",
       "opciones": [
         { "id": "a", "texto": "No esta permitido.", "correcta": true },
         { "id": "b", "texto": "Es valido con autorización verbal.", "correcta": false },
